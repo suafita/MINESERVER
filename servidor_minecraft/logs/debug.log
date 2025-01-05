@@ -1,0 +1,657 @@
+2025-01-05 20:13:56,896 [32mINFO [m [m[main][m [mc.m.m.Launcher.main(76)[m: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 40.2.21, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914, nogui]
+2025-01-05 20:13:56,904 [32mINFO [m [m[main][m [mc.m.m.Launcher.<init>(51)[m: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 17.0.13 by Ubuntu
+2025-01-05 20:13:56,921 [36mDEBUG[m [m[main][m [mc.m.m.LaunchServiceHandler.<init>(41)[m: Found launch services [fmlclientdev,forgeclient,minecraft,forgegametestserverdev,fmlserveruserdev,fmlclient,fmldatauserdev,forgeserverdev,forgeserveruserdev,forgeclientdev,forgeclientuserdev,forgeserver,forgedatadev,fmlserver,fmlclientuserdev,fmlserverdev,forgedatauserdev,testharness,forgegametestserveruserdev]
+2025-01-05 20:13:56,935 [36mDEBUG[m [m[main][m [mc.m.m.NameMappingServiceHandler.<init>(44)[m: Found naming services : [srgtomcp]
+2025-01-05 20:13:56,951 [36mDEBUG[m [m[main][m [mc.m.m.LaunchPluginHandler.<init>(58)[m: Found launch plugins: [mixin,eventbus,slf4jfixer,object_holder_definalize,runtime_enum_extender,mohist_implementer,capability_token_subclass,accesstransformer,runtimedistcleaner]
+2025-01-05 20:13:56,963 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServicesHandler.discoverServices(120)[m: Discovering transformation services
+2025-01-05 20:13:56,983 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServicesHandler.discoverServices(126)[m: Found additional transformation services from discovery services: java.util.stream.ReferencePipeline$3@742d4e15
+2025-01-05 20:13:56,993 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServicesHandler.discoverServices(137)[m: Found transformer services : [mixin,fml]
+2025-01-05 20:13:56,994 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServicesHandler.loadTransformationServices(115)[m: Transformation services loading
+2025-01-05 20:13:56,994 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.onLoad(52)[m: Loading service mixin
+2025-01-05 20:13:56,995 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.onLoad(55)[m: Loaded service mixin
+2025-01-05 20:13:56,995 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.onLoad(52)[m: Loading service fml
+2025-01-05 20:13:56,998 [36mDEBUG[m [m[main][m [mn.m.f.l.LauncherVersion.<clinit>(21)[m: Found FMLLauncher version 1.0
+2025-01-05 20:13:56,998 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLLoader.onInitialLoad(61)[m: FML 1.0 loading
+2025-01-05 20:13:56,998 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLLoader.onInitialLoad(63)[m: FML found ModLauncher version : 9.1.3+9.1.3+main.9b69c82a
+2025-01-05 20:13:56,999 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLLoader.onInitialLoad(75)[m: FML found AccessTransformer version : 8.0.4+66+master.c09db6d7
+2025-01-05 20:13:57,000 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLLoader.onInitialLoad(87)[m: FML found EventBus version : 5.0.3+70+master.d7d405b
+2025-01-05 20:13:57,000 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLLoader.onInitialLoad(97)[m: Found Runtime Dist Cleaner
+2025-01-05 20:13:57,002 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLLoader.onInitialLoad(111)[m: FML found CoreMod version : 5.0.1+15+master.dc5a2922
+2025-01-05 20:13:57,003 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLLoader.onInitialLoad(114)[m: Found ForgeSPI package implementation version 4.0.15-4.x+4.0.15-4.x+4.x.038e91c0
+2025-01-05 20:13:57,003 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLLoader.onInitialLoad(115)[m: Found ForgeSPI package specification 4
+2025-01-05 20:13:57,005 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.onLoad(55)[m: Loaded service fml
+2025-01-05 20:13:57,006 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServicesHandler.processArguments(66)[m: Configuring option handling for services
+2025-01-05 20:13:57,013 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServicesHandler.initialiseTransformationServices(90)[m: Transformation services initializing
+2025-01-05 20:13:57,014 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.onInitialize(67)[m: Initializing transformation service mixin
+2025-01-05 20:13:57,026 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@48075da3
+2025-01-05 20:13:57,039 [32mINFO [m [m[main][m [mmixin.info(97)[m: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/MINESERVER/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2316!/ Service=ModLauncher Env=SERVER
+2025-01-05 20:13:57,043 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Initialising Mixin Platform Manager
+2025-01-05 20:13:57,043 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
+2025-01-05 20:13:57,044 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
+2025-01-05 20:13:57,044 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
+2025-01-05 20:13:57,045 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
+2025-01-05 20:13:57,045 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
+2025-01-05 20:13:57,047 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.onInitialize(69)[m: Initialized transformation service mixin
+2025-01-05 20:13:57,047 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.onInitialize(67)[m: Initializing transformation service fml
+2025-01-05 20:13:57,047 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLServiceProvider.initialize(62)[m: Setting up basic FML game directories
+2025-01-05 20:13:57,048 [36mDEBUG[m [m[main][m [mn.m.f.l.FileUtils.getOrCreateDirectory(41)[m: Found existing GAMEDIR directory : /workspaces/MINESERVER/servidor_minecraft
+2025-01-05 20:13:57,048 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLPaths.loadAbsolutePaths(64)[m: Path GAMEDIR is /workspaces/MINESERVER/servidor_minecraft
+2025-01-05 20:13:57,049 [36mDEBUG[m [m[main][m [mn.m.f.l.FileUtils.getOrCreateDirectory(41)[m: Found existing MODSDIR directory : /workspaces/MINESERVER/servidor_minecraft/mods
+2025-01-05 20:13:57,049 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLPaths.loadAbsolutePaths(64)[m: Path MODSDIR is /workspaces/MINESERVER/servidor_minecraft/mods
+2025-01-05 20:13:57,049 [36mDEBUG[m [m[main][m [mn.m.f.l.FileUtils.getOrCreateDirectory(41)[m: Found existing CONFIGDIR directory : /workspaces/MINESERVER/servidor_minecraft/config
+2025-01-05 20:13:57,049 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLPaths.loadAbsolutePaths(64)[m: Path CONFIGDIR is /workspaces/MINESERVER/servidor_minecraft/config
+2025-01-05 20:13:57,049 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLPaths.loadAbsolutePaths(64)[m: Path FMLCONFIG is /workspaces/MINESERVER/servidor_minecraft/config/fml.toml
+2025-01-05 20:13:57,050 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLServiceProvider.initialize(64)[m: Loading configuration
+2025-01-05 20:13:57,079 [36mDEBUG[m [m[main][m [mn.m.f.l.FileUtils.getOrCreateDirectory(41)[m: Found existing default config directory directory : /workspaces/MINESERVER/servidor_minecraft/defaultconfigs
+2025-01-05 20:13:57,079 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLServiceProvider.initialize(66)[m: Preparing ModFile
+2025-01-05 20:13:57,082 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLServiceProvider.initialize(77)[m: Preparing launch handler
+2025-01-05 20:13:57,082 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLLoader.setupLaunchHandler(135)[m: Using forgeserver as launch service
+2025-01-05 20:13:57,098 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLLoader.setupLaunchHandler(158)[m: Received command line version data  : VersionInfo[forgeVersion=40.2.21, mcVersion=1.18.2, mcpVersion=20220404.173914, forgeGroup=net.minecraftforge]
+2025-01-05 20:13:57,099 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.onInitialize(69)[m: Initialized transformation service fml
+2025-01-05 20:13:57,099 [36mDEBUG[m [m[main][m [mc.m.m.NameMappingServiceHandler.bindNamingServices(53)[m: Current naming domain is 'srg'
+2025-01-05 20:13:57,100 [36mDEBUG[m [m[main][m [mc.m.m.NameMappingServiceHandler.bindNamingServices(57)[m: Identified name mapping providers {}
+2025-01-05 20:13:57,100 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServicesHandler.runScanningTransformationServices(96)[m: Transformation services begin scanning
+2025-01-05 20:13:57,101 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.runScan(111)[m: Beginning scan trigger - transformation service mixin
+2025-01-05 20:13:57,101 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.runScan(113)[m: End scan trigger - transformation service mixin
+2025-01-05 20:13:57,102 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.runScan(111)[m: Beginning scan trigger - transformation service fml
+2025-01-05 20:13:57,102 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLServiceProvider.beginScanning(85)[m: Initiating mod scan
+2025-01-05 20:13:57,110 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModListHandler.processModLists(54)[m: Found mod coordinates from lists: []
+2025-01-05 20:13:57,111 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModDiscoverer.<init>(43)[m: Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null),(userdev classpath:null),(JarInJar:null)
+2025-01-05 20:13:57,118 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileParser.modsTomlParser(36)[m: Considering mod file candidate /workspaces/MINESERVER/servidor_minecraft/mods/flashnpcs-1.18.2-1.2.0.jar
+2025-01-05 20:13:57,152 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileInfo.<init>(71)[m: Found valid mod file flashnpcs-1.18.2-1.2.0.jar with {flashnpcs} mods - versions {1.2.0}
+2025-01-05 20:13:57,265 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileInfo.<init>(71)[m: Found valid mod file server-1.18.2-20220404.173914-srg.jar with {minecraft} mods - versions {1.18.2}
+2025-01-05 20:13:57,268 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileParser.modsTomlParser(36)[m: Considering mod file candidate /workspaces/MINESERVER/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.18.2-40.2.21/fmlcore-1.18.2-40.2.21.jar
+2025-01-05 20:13:57,269 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileParser.modsTomlParser(36)[m: Considering mod file candidate /workspaces/MINESERVER/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.18.2-40.2.21/javafmllanguage-1.18.2-40.2.21.jar
+2025-01-05 20:13:57,270 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileParser.modsTomlParser(36)[m: Considering mod file candidate /workspaces/MINESERVER/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.18.2-40.2.21/lowcodelanguage-1.18.2-40.2.21.jar
+2025-01-05 20:13:57,271 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileParser.modsTomlParser(36)[m: Considering mod file candidate /workspaces/MINESERVER/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.18.2-40.2.21/mclanguage-1.18.2-40.2.21.jar
+2025-01-05 20:13:57,278 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileParser.modsTomlParser(36)[m: Considering mod file candidate /workspaces/MINESERVER/servidor_minecraft/libraries/net/minecraftforge/forge/1.18.2-40.2.21/forge-1.18.2-40.2.21-universal.jar
+2025-01-05 20:13:57,280 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileInfo.<init>(71)[m: Found valid mod file forge-1.18.2-40.2.21-universal.jar with {forge} mods - versions {40.2.21}
+2025-01-05 20:13:57,303 [36mDEBUG[m [m[main][m [mn.m.f.l.m.AbstractJarFileDependencyLocator.loadResourceFromModFile(27)[m: Failed to load resource META-INF/jarjar/metadata.json from server-1.18.2-20220404.173914-srg.jar, it does not contain dependency information.
+2025-01-05 20:13:57,303 [36mDEBUG[m [m[main][m [mn.m.f.l.m.AbstractJarFileDependencyLocator.loadResourceFromModFile(27)[m: Failed to load resource META-INF/jarjar/metadata.json from forge-1.18.2-40.2.21-universal.jar, it does not contain dependency information.
+2025-01-05 20:13:57,304 [36mDEBUG[m [m[main][m [mn.m.f.l.m.AbstractJarFileDependencyLocator.loadResourceFromModFile(27)[m: Failed to load resource META-INF/jarjar/metadata.json from flashnpcs-1.18.2-1.2.0.jar, it does not contain dependency information.
+2025-01-05 20:13:57,304 [36mDEBUG[m [m[main][m [mn.m.f.l.m.AbstractJarFileDependencyLocator.loadResourceFromModFile(27)[m: Failed to load resource META-INF/jarjar/metadata.json from mclanguage-1.18.2-40.2.21.jar, it does not contain dependency information.
+2025-01-05 20:13:57,305 [36mDEBUG[m [m[main][m [mn.m.f.l.m.AbstractJarFileDependencyLocator.loadResourceFromModFile(27)[m: Failed to load resource META-INF/jarjar/metadata.json from javafmllanguage-1.18.2-40.2.21.jar, it does not contain dependency information.
+2025-01-05 20:13:57,305 [36mDEBUG[m [m[main][m [mn.m.f.l.m.AbstractJarFileDependencyLocator.loadResourceFromModFile(27)[m: Failed to load resource META-INF/jarjar/metadata.json from fmlcore-1.18.2-40.2.21.jar, it does not contain dependency information.
+2025-01-05 20:13:57,305 [36mDEBUG[m [m[main][m [mn.m.f.l.m.AbstractJarFileDependencyLocator.loadResourceFromModFile(27)[m: Failed to load resource META-INF/jarjar/metadata.json from lowcodelanguage-1.18.2-40.2.21.jar, it does not contain dependency information.
+2025-01-05 20:13:57,333 [32mINFO [m [m[main][m [mn.m.f.l.m.JarInJarDependencyLocator.scanMods(51)[m: No dependencies to load found. Skipping!
+2025-01-05 20:13:57,335 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileInfo.<init>(71)[m: Found valid mod file server-1.18.2-20220404.173914-srg.jar with {minecraft} mods - versions {1.18.2}
+2025-01-05 20:13:57,338 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFile.identifyMods(113)[m: Loading mod file /workspaces/MINESERVER/servidor_minecraft/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
+2025-01-05 20:13:57,339 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileParser.modsTomlParser(36)[m: Considering mod file candidate /workspaces/MINESERVER/servidor_minecraft/libraries/net/minecraftforge/forge/1.18.2-40.2.21/forge-1.18.2-40.2.21-universal.jar
+2025-01-05 20:13:57,340 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileInfo.<init>(71)[m: Found valid mod file forge-1.18.2-40.2.21-universal.jar with {forge} mods - versions {40.2.21}
+2025-01-05 20:13:57,341 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFile.identifyMods(113)[m: Loading mod file /workspaces/MINESERVER/servidor_minecraft/libraries/net/minecraftforge/forge/1.18.2-40.2.21/forge-1.18.2-40.2.21-universal.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[24,]]]
+2025-01-05 20:13:57,370 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileParser.lambda$getCoreMods$0(68)[m: Found coremod field_to_method with Javascript path coremods/field_to_method.js
+2025-01-05 20:13:57,371 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileParser.lambda$getCoreMods$0(68)[m: Found coremod field_to_instanceof with Javascript path coremods/field_to_instanceof.js
+2025-01-05 20:13:57,371 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileParser.lambda$getCoreMods$0(68)[m: Found coremod add_bouncer_method with Javascript path coremods/add_bouncer_method.js
+2025-01-05 20:13:57,371 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileParser.lambda$getCoreMods$0(68)[m: Found coremod registry_object_binary_compat with Javascript path coremods/registry_object_binary_compat.js
+2025-01-05 20:13:57,371 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFile.lambda$identifyMods$1(115)[m: Found coremod coremods/field_to_method.js
+2025-01-05 20:13:57,372 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFile.lambda$identifyMods$1(115)[m: Found coremod coremods/field_to_instanceof.js
+2025-01-05 20:13:57,372 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFile.lambda$identifyMods$1(115)[m: Found coremod coremods/add_bouncer_method.js
+2025-01-05 20:13:57,372 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFile.lambda$identifyMods$1(115)[m: Found coremod coremods/registry_object_binary_compat.js
+2025-01-05 20:13:57,372 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileParser.modsTomlParser(36)[m: Considering mod file candidate /workspaces/MINESERVER/servidor_minecraft/mods/flashnpcs-1.18.2-1.2.0.jar
+2025-01-05 20:13:57,373 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFileInfo.<init>(71)[m: Found valid mod file flashnpcs-1.18.2-1.2.0.jar with {flashnpcs} mods - versions {1.2.0}
+2025-01-05 20:13:57,373 [36mDEBUG[m [m[main][m [mn.m.f.l.m.ModFile.identifyMods(113)[m: Loading mod file /workspaces/MINESERVER/servidor_minecraft/mods/flashnpcs-1.18.2-1.2.0.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[39,)]]
+2025-01-05 20:13:57,375 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.runScan(113)[m: End scan trigger - transformation service fml
+2025-01-05 20:13:57,388 [36mDEBUG[m [m[main][m [mn.m.f.l.LanguageLoadingProvider.loadLanguageProviders(84)[m: Found 3 language providers
+2025-01-05 20:13:57,388 [36mDEBUG[m [m[main][m [mn.m.f.l.LanguageLoadingProvider.lambda$loadLanguageProviders$4(100)[m: Found language provider minecraft, version 1.0
+2025-01-05 20:13:57,389 [36mDEBUG[m [m[main][m [mn.m.f.l.LanguageLoadingProvider.lambda$loadLanguageProviders$4(100)[m: Found language provider lowcodefml, version 40
+2025-01-05 20:13:57,389 [36mDEBUG[m [m[main][m [mn.m.f.l.LanguageLoadingProvider.lambda$loadLanguageProviders$4(100)[m: Found language provider javafml, version 40
+2025-01-05 20:13:57,392 [36mDEBUG[m [m[main][m [mn.m.f.l.ModSorter.detectSystemMods(171)[m: Configured system mods: [minecraft, forge]
+2025-01-05 20:13:57,393 [36mDEBUG[m [m[main][m [mn.m.f.l.ModSorter.detectSystemMods(177)[m: Found system mod: minecraft
+2025-01-05 20:13:57,393 [36mDEBUG[m [m[main][m [mn.m.f.l.ModSorter.detectSystemMods(177)[m: Found system mod: forge
+2025-01-05 20:13:57,394 [36mDEBUG[m [m[main][m [mn.m.f.l.ModSorter.verifyDependencyVersions(203)[m: Found 2 mod requirements (2 mandatory, 0 optional)
+2025-01-05 20:13:57,395 [36mDEBUG[m [m[main][m [mn.m.f.l.ModSorter.verifyDependencyVersions(208)[m: Found 0 mod requirements missing (0 mandatory, 0 optional)
+2025-01-05 20:13:57,780 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServicesHandler.initialiseServiceTransformers(84)[m: Transformation services loading transformers
+2025-01-05 20:13:57,781 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.gatherTransformers(73)[m: Initializing transformers for transformation service mixin
+2025-01-05 20:13:57,782 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.gatherTransformers(103)[m: Initialized transformers for transformation service mixin
+2025-01-05 20:13:57,783 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.gatherTransformers(73)[m: Initializing transformers for transformation service fml
+2025-01-05 20:13:57,783 [36mDEBUG[m [m[main][m [mn.m.f.l.FMLServiceProvider.transformers(132)[m: Loading coremod transformers
+2025-01-05 20:13:57,784 [36mDEBUG[m [m[main][m [mn.m.c.CoreModEngine.initialize(74)[m: Loading CoreMod from coremods/field_to_method.js
+2025-01-05 20:13:58,074 [36mDEBUG[m [m[main][m [mn.m.c.CoreModEngine.initialize(79)[m: CoreMod loaded successfully
+2025-01-05 20:13:58,074 [36mDEBUG[m [m[main][m [mn.m.c.CoreModEngine.initialize(74)[m: Loading CoreMod from coremods/field_to_instanceof.js
+2025-01-05 20:13:58,186 [36mDEBUG[m [m[main][m [mn.m.c.CoreModEngine.initialize(79)[m: CoreMod loaded successfully
+2025-01-05 20:13:58,187 [36mDEBUG[m [m[main][m [mn.m.c.CoreModEngine.initialize(74)[m: Loading CoreMod from coremods/add_bouncer_method.js
+2025-01-05 20:13:58,250 [36mDEBUG[m [m[main][m [mn.m.c.CoreModEngine.initialize(79)[m: CoreMod loaded successfully
+2025-01-05 20:13:58,250 [36mDEBUG[m [m[main][m [mn.m.c.CoreModEngine.initialize(74)[m: Loading CoreMod from coremods/registry_object_binary_compat.js
+2025-01-05 20:13:58,296 [36mDEBUG[m [m[main][m [mn.m.c.CoreModEngine.initialize(79)[m: CoreMod loaded successfully
+2025-01-05 20:13:58,304 [36mDEBUG[m [m[main][m [mc.m.m.TransformStore.addTransformer(64)[m: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@3bb5ceb to Target : CLASS {Lnet/minecraft/world/effect/MobEffectInstance;} {} {V}
+2025-01-05 20:13:58,305 [36mDEBUG[m [m[main][m [mc.m.m.TransformStore.addTransformer(64)[m: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@46039a21 to Target : CLASS {Lnet/minecraft/world/level/block/LiquidBlock;} {} {V}
+2025-01-05 20:13:58,305 [36mDEBUG[m [m[main][m [mc.m.m.TransformStore.addTransformer(64)[m: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@431e86b1 to Target : CLASS {Lnet/minecraft/world/level/block/StairBlock;} {} {V}
+2025-01-05 20:13:58,305 [36mDEBUG[m [m[main][m [mc.m.m.TransformStore.addTransformer(64)[m: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@35c4e864 to Target : CLASS {Lnet/minecraft/world/level/block/FlowerPotBlock;} {} {V}
+2025-01-05 20:13:58,306 [36mDEBUG[m [m[main][m [mc.m.m.TransformStore.addTransformer(64)[m: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@32a2a6be to Target : CLASS {Lnet/minecraft/world/item/ItemStack;} {} {V}
+2025-01-05 20:13:58,306 [36mDEBUG[m [m[main][m [mc.m.m.TransformStore.addTransformer(64)[m: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@682af059 to Target : CLASS {Lnet/minecraft/network/play/client/CClientSettingsPacket;} {} {V}
+2025-01-05 20:13:58,306 [36mDEBUG[m [m[main][m [mc.m.m.TransformStore.addTransformer(64)[m: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@5f36c8e3 to Target : CLASS {Lnet/minecraftforge/registries/RegistryObject;} {} {V}
+2025-01-05 20:13:58,307 [36mDEBUG[m [m[main][m [mc.m.m.TransformationServiceDecorator.gatherTransformers(103)[m: Initialized transformers for transformation service fml
+2025-01-05 20:13:58,652 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+2025-01-05 20:13:58,654 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+2025-01-05 20:13:58,655 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Adding mixin platform agents for container SecureJarResource(minecraft)
+2025-01-05 20:13:58,655 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(minecraft)
+2025-01-05 20:13:58,656 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(minecraft)
+2025-01-05 20:13:58,656 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Instancing new MixinPlatformAgentDefault for SecureJarResource(minecraft)
+2025-01-05 20:13:58,656 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: MixinPlatformAgentDefault accepted container SecureJarResource(minecraft)
+2025-01-05 20:13:58,656 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+2025-01-05 20:13:58,657 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Adding mixin platform agents for container SecureJarResource(forge)
+2025-01-05 20:13:58,657 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(forge)
+2025-01-05 20:13:58,657 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(forge)
+2025-01-05 20:13:58,657 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Instancing new MixinPlatformAgentDefault for SecureJarResource(forge)
+2025-01-05 20:13:58,658 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: MixinPlatformAgentDefault accepted container SecureJarResource(forge)
+2025-01-05 20:13:58,659 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+2025-01-05 20:13:58,659 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Adding mixin platform agents for container SecureJarResource(flashnpcs)
+2025-01-05 20:13:58,659 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(flashnpcs)
+2025-01-05 20:13:58,659 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(flashnpcs)
+2025-01-05 20:13:58,660 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Instancing new MixinPlatformAgentDefault for SecureJarResource(flashnpcs)
+2025-01-05 20:13:58,660 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: MixinPlatformAgentDefault accepted container SecureJarResource(flashnpcs)
+2025-01-05 20:13:58,660 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(flashnpcs)]
+2025-01-05 20:13:58,660 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Registering mixin config: flashnpcs.mixins.json
+2025-01-05 20:13:58,678 [36mDEBUG[m [m[main][m [mmixin.log(107)[m: Compatibility level JAVA_8 specified by flashnpcs.mixins.json is lower than the default level supported by the current mixin service (JAVA_16).
+2025-01-05 20:13:58,682 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: inject() running with 4 agents
+2025-01-05 20:13:58,683 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+2025-01-05 20:13:58,683 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+2025-01-05 20:13:58,684 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+2025-01-05 20:13:58,685 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(flashnpcs)]
+2025-01-05 20:13:58,686 [32mINFO [m [m[main][m [mc.m.m.LaunchServiceHandler.launch(52)[m: Launching target 'forgeserver' with arguments [nogui]
+2025-01-05 20:13:58,714 [36mDEBUG[m [m[main][m [mmixin.debug(67)[m: Error cleaning class output directory: .mixin.out
+2025-01-05 20:13:58,716 [36mDEBUG[m [m[main][m [mmixin.log(107)[m: Preparing mixins for MixinEnvironment[DEFAULT]
+2025-01-05 20:13:58,716 [36mDEBUG[m [m[main][m [mmixin.log(107)[m: Selecting config flashnpcs.mixins.json
+2025-01-05 20:13:58,720 [36mDEBUG[m [m[main][m [mmixin.log(107)[m: Preparing flashnpcs.mixins.json (2)
+2025-01-05 20:13:58,780 [36mDEBUG[m [m[main][m [mmixin.log(107)[m: Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
+2025-01-05 20:13:58,783 [36mDEBUG[m [m[main][m [mmixin.log(107)[m: Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
+2025-01-05 20:13:58,784 [36mDEBUG[m [m[main][m [mmixin.log(107)[m: Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
+2025-01-05 20:13:58,786 [36mDEBUG[m [m[main][m [mmixin.log(107)[m: Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
+2025-01-05 20:13:58,788 [36mDEBUG[m [m[main][m [mmixin.log(107)[m: Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
+2025-01-05 20:13:58,789 [36mDEBUG[m [m[main][m [mmixin.log(107)[m: Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
+2025-01-05 20:13:58,902 [36mDEBUG[m [m[main][m [mi.n.u.i.l.InternalLoggerFactory.useSlf4JLoggerFactory(63)[m: Using SLF4J as the default logging framework
+2025-01-05 20:13:58,907 [36mDEBUG[m [m[main][m [mi.n.u.ResourceLeakDetector.<clinit>(129)[m: -Dio.netty.leakDetection.level: simple
+2025-01-05 20:13:58,907 [36mDEBUG[m [m[main][m [mi.n.u.ResourceLeakDetector.<clinit>(130)[m: -Dio.netty.leakDetection.targetRecords: 4
+2025-01-05 20:13:59,022 [36mDEBUG[m [m[main][m [mo.u.FileUtil.readPropertiesFromClassLoader(302)[m: No oshi.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@5e99b9c
+2025-01-05 20:13:59,046 [36mDEBUG[m [m[main][m [mo.u.FileUtil.readFile(89)[m: Reading file /proc/cpuinfo
+2025-01-05 20:13:59,047 [36mDEBUG[m [m[main][m [mo.u.FileUtil.readFile(89)[m: Reading file /proc/cpuinfo
+2025-01-05 20:13:59,068 [36mDEBUG[m [m[main][m [mo.u.FileUtil.readPropertiesFromClassLoader(302)[m: No oshi.architecture.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@5e99b9c
+2025-01-05 20:13:59,102 [36mDEBUG[m [m[main][m [mo.u.FileUtil.readFile(89)[m: Reading file /proc/meminfo
+2025-01-05 20:13:59,104 [36mDEBUG[m [m[main][m [mo.u.FileUtil.readFile(89)[m: Reading file /proc/meminfo
+2025-01-05 20:13:59,660 [36mDEBUG[m [m[main][m [mn.m.c.t.CoreModBaseTransformer.runCoremod(17)[m: Transforming net/minecraft/world/level/block/LiquidBlock
+2025-01-05 20:13:59,714 [36mDEBUG[m [m[main][m [mn.m.c.t.CoreModBaseTransformer.runCoremod(17)[m: Transforming net/minecraft/world/level/block/StairBlock
+2025-01-05 20:13:59,850 [36mDEBUG[m [m[main][m [mn.m.c.t.CoreModBaseTransformer.runCoremod(17)[m: Transforming net/minecraft/world/level/block/FlowerPotBlock
+2025-01-05 20:14:00,668 [36mDEBUG[m [m[main][m [mn.m.c.t.CoreModBaseTransformer.runCoremod(17)[m: Transforming net/minecraftforge/registries/RegistryObject
+2025-01-05 20:14:01,173 [36mDEBUG[m [m[main][m [mn.m.c.t.CoreModBaseTransformer.runCoremod(17)[m: Transforming net/minecraft/world/item/ItemStack
+2025-01-05 20:14:04,060 [36mDEBUG[m [m[main][m [mmixin.log(107)[m: Mixing NameTagMixin from flashnpcs.mixins.json into net.minecraft.world.item.NameTagItem
+2025-01-05 20:14:04,187 [36mDEBUG[m [m[main][m [mmixin.log(107)[m: flashnpcs.mixins.json:NameTagMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_8 supports class version 52)
+2025-01-05 20:14:04,222 [36mDEBUG[m [m[main][m [mn.m.c.t.CoreModBaseTransformer.runCoremod(17)[m: Transforming net/minecraft/world/item/ItemStack
+2025-01-05 20:14:04,672 [36mDEBUG[m [m[main][m [mn.m.c.t.CoreModBaseTransformer.runCoremod(17)[m: Transforming net/minecraft/world/effect/MobEffectInstance
+2025-01-05 20:14:05,784 [36mDEBUG[m [m[main][m [mn.m.c.ForgeI18n.loadLanguageData(82)[m: Loading I18N data entries: 5364
+2025-01-05 20:14:05,818 [36mDEBUG[m [m[main][m [mn.m.f.ModWorkManager.parallelExecutor(97)[m: Using 4 threads for parallel mod-loading
+2025-01-05 20:14:05,829 [36mDEBUG[m [m[main][m [mn.m.f.j.FMLJavaModLanguageProvider.loadMod(60)[m: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@5e99b9c - got cpw.mods.cl.ModuleClassLoader@69e49a81
+2025-01-05 20:14:05,829 [36mDEBUG[m [m[main][m [mn.m.f.j.FMLModContainer.<init>(37)[m: Creating FMLModContainer instance for net.minecraftforge.common.ForgeMod
+2025-01-05 20:14:05,845 [36mDEBUG[m [m[main][m [mn.m.f.j.FMLJavaModLanguageProvider.loadMod(60)[m: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@5e99b9c - got cpw.mods.cl.ModuleClassLoader@69e49a81
+2025-01-05 20:14:05,846 [36mDEBUG[m [m[main][m [mn.m.f.j.FMLModContainer.<init>(37)[m: Creating FMLModContainer instance for flash.npcmod.Main
+2025-01-05 20:14:05,938 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.v.f.ForgeVersion.<clinit>(30)[m: Forge Version package package net.minecraftforge.versions.forge, Forge, version 38.0 from cpw.mods.modlauncher.TransformingClassLoader@5e99b9c
+2025-01-05 20:14:05,939 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.v.f.ForgeVersion.<clinit>(42)[m: Found Forge version 40.2.21
+2025-01-05 20:14:05,939 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.v.f.ForgeVersion.<clinit>(43)[m: Found Forge spec 38.0
+2025-01-05 20:14:05,940 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.v.f.ForgeVersion.<clinit>(44)[m: Found Forge group net.minecraftforge
+2025-01-05 20:14:05,941 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.v.m.MCPVersion.<clinit>(21)[m: MCP Version package package net.minecraftforge.versions.mcp, Minecraft, version 1.18.2 from cpw.mods.modlauncher.TransformingClassLoader@5e99b9c
+2025-01-05 20:14:05,941 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.v.m.MCPVersion.<clinit>(28)[m: Found MC version information 1.18.2
+2025-01-05 20:14:05,942 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.v.m.MCPVersion.<clinit>(29)[m: Found MCP version information 20220404.173914
+2025-01-05 20:14:05,942 [32mINFO [m [m[modloading-worker-0][m [mn.m.c.ForgeMod.<init>(143)[m: Forge mod loading, version 40.2.21, for MC 1.18.2 with MCP 20220404.173914
+2025-01-05 20:14:05,945 [32mINFO [m [m[modloading-worker-0][m [mn.m.c.MinecraftForge.initialize(41)[m: MinecraftForge v40.2.21 Initialized
+2025-01-05 20:14:06,048 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.f.j.AutomaticEventSubscriber.inject(40)[m: Attempting to inject @EventBusSubscriber classes into the eventbus for flashnpcs
+2025-01-05 20:14:06,053 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.f.j.AutomaticEventSubscriber.lambda$inject$6(60)[m: Auto-subscribing flash.npcmod.RegistryEvents to MOD
+2025-01-05 20:14:06,081 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent0.explicitNoUnsafeCause0(460)[m: -Dio.netty.noUnsafe: false
+2025-01-05 20:14:06,082 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.f.j.AutomaticEventSubscriber.lambda$inject$6(60)[m: Auto-subscribing flash.npcmod.events.Events to FORGE
+2025-01-05 20:14:06,098 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent0.javaVersion0(954)[m: Java version: 17
+2025-01-05 20:14:06,099 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent0.<clinit>(135)[m: sun.misc.Unsafe.theUnsafe: available
+2025-01-05 20:14:06,100 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent0.<clinit>(159)[m: sun.misc.Unsafe.copyMemory: available
+2025-01-05 20:14:06,100 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent0.<clinit>(202)[m: java.nio.Buffer.address: available
+2025-01-05 20:14:06,101 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent0.<clinit>(282)[m: direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31) ~[netty-all-4.1.68.Final.jar%2356!/:4.1.68.Final]
+	at io.netty.util.internal.PlatformDependent0$4.run(PlatformDependent0.java:253) ~[netty-all-4.1.68.Final.jar%2356!/:4.1.68.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:247) ~[netty-all-4.1.68.Final.jar%2356!/:4.1.68.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294) ~[netty-all-4.1.68.Final.jar%2356!/:4.1.68.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) ~[netty-all-4.1.68.Final.jar%2356!/:4.1.68.Final]
+	at io.netty.util.ConstantPool.<init>(ConstantPool.java:34) ~[netty-all-4.1.68.Final.jar%2356!/:4.1.68.Final]
+	at io.netty.util.AttributeKey$1.<init>(AttributeKey.java:27) ~[netty-all-4.1.68.Final.jar%2356!/:4.1.68.Final]
+	at io.netty.util.AttributeKey.<clinit>(AttributeKey.java:27) ~[netty-all-4.1.68.Final.jar%2356!/:4.1.68.Final]
+	at net.minecraftforge.network.NetworkConstants.<clinit>(NetworkConstants.java:33) ~[forge-1.18.2-40.2.21-universal.jar%2367!/:?]
+	at net.minecraftforge.common.ForgeMod.<init>(ForgeMod.java:152) ~[forge-1.18.2-40.2.21-universal.jar%2367!/:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:67) ~[javafmllanguage-1.18.2-40.2.21.jar%2364!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:121) ~[fmlcore-1.18.2-40.2.21.jar%2363!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+2025-01-05 20:14:06,102 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent0.<clinit>(350)[m: java.nio.Bits.unaligned: available, true
+2025-01-05 20:14:06,103 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent0.<clinit>(414)[m: jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$6 (in module io.netty.all) cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to module io.netty.all
+	at jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392) ~[?:?]
+	at java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:674) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:561) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0$6.run(PlatformDependent0.java:375) ~[netty-all-4.1.68.Final.jar%2356!/:4.1.68.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:366) ~[netty-all-4.1.68.Final.jar%2356!/:4.1.68.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294) ~[netty-all-4.1.68.Final.jar%2356!/:4.1.68.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) ~[netty-all-4.1.68.Final.jar%2356!/:4.1.68.Final]
+	at io.netty.util.ConstantPool.<init>(ConstantPool.java:34) ~[netty-all-4.1.68.Final.jar%2356!/:4.1.68.Final]
+	at io.netty.util.AttributeKey$1.<init>(AttributeKey.java:27) ~[netty-all-4.1.68.Final.jar%2356!/:4.1.68.Final]
+	at io.netty.util.AttributeKey.<clinit>(AttributeKey.java:27) ~[netty-all-4.1.68.Final.jar%2356!/:4.1.68.Final]
+	at net.minecraftforge.network.NetworkConstants.<clinit>(NetworkConstants.java:33) ~[forge-1.18.2-40.2.21-universal.jar%2367!/:?]
+	at net.minecraftforge.common.ForgeMod.<init>(ForgeMod.java:152) ~[forge-1.18.2-40.2.21-universal.jar%2367!/:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:67) ~[javafmllanguage-1.18.2-40.2.21.jar%2364!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:121) ~[fmlcore-1.18.2-40.2.21.jar%2363!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+2025-01-05 20:14:06,105 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent0.<clinit>(446)[m: java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2025-01-05 20:14:06,105 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent.unsafeUnavailabilityCause0(1103)[m: sun.misc.Unsafe: available
+2025-01-05 20:14:06,106 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent.maxDirectMemory0(1205)[m: maxDirectMemory: 17179869184 bytes (maybe)
+2025-01-05 20:14:06,118 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent.tmpdir0(1224)[m: -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+2025-01-05 20:14:06,119 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent.bitMode0(1303)[m: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2025-01-05 20:14:06,121 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent.<clinit>(178)[m: -Dio.netty.maxDirectMemory: -1 bytes
+2025-01-05 20:14:06,121 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent.<clinit>(185)[m: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2025-01-05 20:14:06,122 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.CleanerJava9.<clinit>(71)[m: java.nio.ByteBuffer.cleaner(): available
+2025-01-05 20:14:06,122 [36mDEBUG[m [m[modloading-worker-0][m [mi.n.u.i.PlatformDependent.<clinit>(205)[m: -Dio.netty.noPreferDirect: false
+2025-01-05 20:14:06,173 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.c.ForgeMod.<init>(152)[m: Loading Network data for FML net version: FML3
+2025-01-05 20:14:06,219 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.f.c.ConfigTracker.trackConfig(45)[m: Config file forge-client.toml for forge tracking
+2025-01-05 20:14:06,219 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.f.c.ConfigTracker.trackConfig(45)[m: Config file forge-server.toml for forge tracking
+2025-01-05 20:14:06,220 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.f.c.ConfigTracker.trackConfig(45)[m: Config file forge-common.toml for forge tracking
+2025-01-05 20:14:06,299 [32mINFO [m [m[modloading-worker-0][m [mc.m.MohistMC.init(17)[m: EventDispatcherRegistry initialized
+2025-01-05 20:14:06,407 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.f.j.AutomaticEventSubscriber.inject(40)[m: Attempting to inject @EventBusSubscriber classes into the eventbus for forge
+2025-01-05 20:14:06,409 [36mDEBUG[m [m[modloading-worker-0][m [mn.m.f.j.AutomaticEventSubscriber.lambda$inject$6(60)[m: Auto-subscribing net.minecraftforge.common.ForgeSpawnEggItem$CommonHandler to MOD
+2025-01-05 20:14:06,996 [36mDEBUG[m [m[main][m [mn.m.f.c.ConfigTracker.loadConfigs(49)[m: Loading configs type COMMON
+2025-01-05 20:14:07,000 [36mDEBUG[m [m[main][m [mn.m.f.c.ConfigFileTypeHandler.lambda$reader$1(40)[m: Built TOML config for /workspaces/MINESERVER/servidor_minecraft/config/forge-common.toml
+2025-01-05 20:14:07,002 [36mDEBUG[m [m[main][m [mn.m.f.c.ConfigFileTypeHandler.lambda$reader$1(49)[m: Loaded TOML config file /workspaces/MINESERVER/servidor_minecraft/config/forge-common.toml
+2025-01-05 20:14:07,004 [36mDEBUG[m [m[main][m [mn.m.f.c.ConfigFileTypeHandler.lambda$reader$1(52)[m: Watching TOML config file /workspaces/MINESERVER/servidor_minecraft/config/forge-common.toml for changes
+2025-01-05 20:14:07,009 [36mDEBUG[m [m[main][m [mn.m.c.ForgeConfig.onLoad(202)[m: Loaded forge config file forge-common.toml
+2025-01-05 20:14:07,010 [36mDEBUG[m [m[Thread-0][m [mn.m.f.c.ConfigFileTypeHandler.run(145)[m: Config file forge-common.toml changed, sending notifies
+2025-01-05 20:14:07,010 [36mDEBUG[m [m[Thread-0][m [mn.m.c.ForgeConfig.onFileChange(207)[m: Forge config just got changed on the file system!
+2025-01-05 20:14:07,011 [36mDEBUG[m [m[Thread-0][m [mn.m.f.c.ConfigFileTypeHandler.run(145)[m: Config file forge-common.toml changed, sending notifies
+2025-01-05 20:14:07,011 [36mDEBUG[m [m[Thread-0][m [mn.m.c.ForgeConfig.onFileChange(207)[m: Forge config just got changed on the file system!
+2025-01-05 20:14:09,082 [32mINFO [m [m[main][m [mc.m.a.y.YggdrasilAuthenticationService.<init>(72)[m: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+2025-01-05 20:14:10,314 [33mWARN [m [m[main][m [mn.m.s.p.VanillaPackResources.m_182299_(58)[m: Assets URL 'union:/workspaces/MINESERVER/servidor_minecraft/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2362!/assets/.mcassetsroot' uses unexpected schema
+2025-01-05 20:14:10,314 [33mWARN [m [m[main][m [mn.m.s.p.VanillaPackResources.m_182299_(58)[m: Assets URL 'union:/workspaces/MINESERVER/servidor_minecraft/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2362!/data/.mcassetsroot' uses unexpected schema
+2025-01-05 20:14:10,398 [36mDEBUG[m [m[main][m [mn.m.s.ServerLifecycleHooks.serverPackFinder(219)[m: Generating PackInfo named mod:forge for mod file /workspaces/MINESERVER/servidor_minecraft/libraries/net/minecraftforge/forge/1.18.2-40.2.21/forge-1.18.2-40.2.21-universal.jar
+2025-01-05 20:14:10,407 [36mDEBUG[m [m[main][m [mn.m.s.ServerLifecycleHooks.serverPackFinder(219)[m: Generating PackInfo named mod:flashnpcs for mod file /workspaces/MINESERVER/servidor_minecraft/mods/flashnpcs-1.18.2-1.2.0.jar
+2025-01-05 20:14:13,007 [36mDEBUG[m [m[main][m [mmixin.log(107)[m: Mixing OpCommandMixin from flashnpcs.mixins.json into net.minecraft.server.commands.OpCommand
+2025-01-05 20:14:13,007 [36mDEBUG[m [m[main][m [mmixin.log(107)[m: flashnpcs.mixins.json:OpCommandMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_8 supports class version 52)
+2025-01-05 20:14:13,298 [33mWARN [m [m[main][m [mn.m.c.Commands.m_82107_(214)[m: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+2025-01-05 20:14:13,309 [33mWARN [m [m[main][m [mn.m.c.Commands.m_82107_(214)[m: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+2025-01-05 20:14:13,314 [33mWARN [m [m[main][m [mn.m.c.Commands.m_82107_(214)[m: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+2025-01-05 20:14:13,316 [33mWARN [m [m[main][m [mn.m.c.Commands.m_82107_(214)[m: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+2025-01-05 20:14:13,318 [33mWARN [m [m[main][m [mn.m.c.Commands.m_82107_(214)[m: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+2025-01-05 20:14:15,499 [32mINFO [m [m[Worker-Main-4][m [mn.m.w.i.c.RecipeManager.m_5787_(85)[m: Loaded 7 recipes
+2025-01-05 20:14:18,091 [36mDEBUG[m [m[main][m [mn.m.c.ForgeHooks.writeAdditionalLevelSaveData(1442)[m: Gathering id map for writing to world save world
+2025-01-05 20:14:18,112 [36mDEBUG[m [m[main][m [mn.m.c.ForgeHooks.writeAdditionalLevelSaveData(1448)[m: ID Map collection complete world
+2025-01-05 20:14:18,294 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(150)[m: Starting minecraft server version 1.18.2
+2025-01-05 20:14:18,295 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(155)[m: Loading properties
+2025-01-05 20:14:18,295 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(172)[m: Default game type: SURVIVAL
+2025-01-05 20:14:18,295 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129793_(1286)[m: Generating keypair
+2025-01-05 20:14:18,533 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(183)[m: Starting Minecraft server on *:25565
+2025-01-05 20:14:18,534 [36mDEBUG[m [m[Server thread][m [mn.m.n.DualStackUtils.checkIPv6(82)[m: Detected IPv4 address: "0.0.0.0"
+2025-01-05 20:14:18,543 [36mDEBUG[m [m[Server thread][m [mi.n.u.i.NativeLibraryLoader.<clinit>(73)[m: -Dio.netty.native.workdir: /tmp (io.netty.tmpdir)
+2025-01-05 20:14:18,554 [36mDEBUG[m [m[Server thread][m [mi.n.u.i.NativeLibraryLoader.<clinit>(78)[m: -Dio.netty.native.deleteLibAfterLoading: true
+2025-01-05 20:14:18,554 [36mDEBUG[m [m[Server thread][m [mi.n.u.i.NativeLibraryLoader.<clinit>(82)[m: -Dio.netty.native.tryPatchShadedId: true
+2025-01-05 20:14:18,560 [36mDEBUG[m [m[Server thread][m [mi.n.u.i.NativeLibraryLoader.loadLibrary(337)[m: Successfully loaded the library /tmp/libnetty_transport_native_epoll_x86_645173426401744065223.so
+2025-01-05 20:14:18,563 [36mDEBUG[m [m[Server thread][m [mi.n.u.NetUtil.<clinit>(135)[m: -Djava.net.preferIPv4Stack: true
+2025-01-05 20:14:18,574 [36mDEBUG[m [m[Server thread][m [mi.n.u.NetUtil.<clinit>(136)[m: -Djava.net.preferIPv6Addresses: false
+2025-01-05 20:14:18,576 [36mDEBUG[m [m[Server thread][m [mi.n.u.NetUtilInitializations.determineLoopback(129)[m: Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+2025-01-05 20:14:18,576 [36mDEBUG[m [m[Server thread][m [mi.n.u.NetUtil.run(169)[m: /proc/sys/net/core/somaxconn: 4096
+2025-01-05 20:14:18,579 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerConnectionListener.m_9711_(79)[m: Using epoll channel type
+2025-01-05 20:14:18,604 [36mDEBUG[m [m[Server thread][m [mi.n.c.MultithreadEventLoopGroup.<clinit>(44)[m: -Dio.netty.eventLoopThreads: 8
+2025-01-05 20:14:18,627 [36mDEBUG[m [m[Server thread][m [mi.n.u.i.InternalThreadLocalMap.<clinit>(83)[m: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2025-01-05 20:14:18,627 [36mDEBUG[m [m[Server thread][m [mi.n.u.i.InternalThreadLocalMap.<clinit>(86)[m: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2025-01-05 20:14:18,637 [36mDEBUG[m [m[Server thread][m [mi.n.u.i.PlatformDependent.<clinit>(967)[m: org.jctools-core.MpscChunkedArrayQueue: available
+2025-01-05 20:14:18,666 [36mDEBUG[m [m[Server thread][m [mi.n.c.DefaultChannelId.<clinit>(79)[m: -Dio.netty.processId: 72339 (auto-detected)
+2025-01-05 20:14:18,668 [36mDEBUG[m [m[Server thread][m [mi.n.c.DefaultChannelId.<clinit>(101)[m: -Dio.netty.machineId: 7c:1e:52:ff:fe:22:b2:79 (auto-detected)
+2025-01-05 20:14:18,715 [36mDEBUG[m [m[Server thread][m [mi.n.b.PooledByteBufAllocator.<clinit>(155)[m: -Dio.netty.allocator.numHeapArenas: 8
+2025-01-05 20:14:18,715 [36mDEBUG[m [m[Server thread][m [mi.n.b.PooledByteBufAllocator.<clinit>(156)[m: -Dio.netty.allocator.numDirectArenas: 8
+2025-01-05 20:14:18,715 [36mDEBUG[m [m[Server thread][m [mi.n.b.PooledByteBufAllocator.<clinit>(158)[m: -Dio.netty.allocator.pageSize: 8192
+2025-01-05 20:14:18,715 [36mDEBUG[m [m[Server thread][m [mi.n.b.PooledByteBufAllocator.<clinit>(163)[m: -Dio.netty.allocator.maxOrder: 11
+2025-01-05 20:14:18,715 [36mDEBUG[m [m[Server thread][m [mi.n.b.PooledByteBufAllocator.<clinit>(167)[m: -Dio.netty.allocator.chunkSize: 16777216
+2025-01-05 20:14:18,716 [36mDEBUG[m [m[Server thread][m [mi.n.b.PooledByteBufAllocator.<clinit>(168)[m: -Dio.netty.allocator.smallCacheSize: 256
+2025-01-05 20:14:18,716 [36mDEBUG[m [m[Server thread][m [mi.n.b.PooledByteBufAllocator.<clinit>(169)[m: -Dio.netty.allocator.normalCacheSize: 64
+2025-01-05 20:14:18,716 [36mDEBUG[m [m[Server thread][m [mi.n.b.PooledByteBufAllocator.<clinit>(170)[m: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2025-01-05 20:14:18,716 [36mDEBUG[m [m[Server thread][m [mi.n.b.PooledByteBufAllocator.<clinit>(171)[m: -Dio.netty.allocator.cacheTrimInterval: 8192
+2025-01-05 20:14:18,716 [36mDEBUG[m [m[Server thread][m [mi.n.b.PooledByteBufAllocator.<clinit>(172)[m: -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2025-01-05 20:14:18,716 [36mDEBUG[m [m[Server thread][m [mi.n.b.PooledByteBufAllocator.<clinit>(173)[m: -Dio.netty.allocator.useCacheForAllThreads: true
+2025-01-05 20:14:18,716 [36mDEBUG[m [m[Server thread][m [mi.n.b.PooledByteBufAllocator.<clinit>(174)[m: -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2025-01-05 20:14:18,723 [36mDEBUG[m [m[Server thread][m [mi.n.b.ByteBufUtil.<clinit>(87)[m: -Dio.netty.allocator.type: pooled
+2025-01-05 20:14:18,724 [36mDEBUG[m [m[Server thread][m [mi.n.b.ByteBufUtil.<clinit>(96)[m: -Dio.netty.threadLocalDirectBufferSize: 0
+2025-01-05 20:14:18,724 [36mDEBUG[m [m[Server thread][m [mi.n.b.ByteBufUtil.<clinit>(99)[m: -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2025-01-05 20:14:18,753 [33mWARN [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(195)[m: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2025-01-05 20:14:18,754 [33mWARN [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(196)[m: The server will make no attempt to authenticate usernames. Beware.
+2025-01-05 20:14:18,754 [33mWARN [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(197)[m: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2025-01-05 20:14:18,755 [33mWARN [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(198)[m: To change this, set "online-mode" to "true" in the server.properties file.
+2025-01-05 20:14:18,888 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: This server is running Mohist version 1.18.2-184 (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT, Forge version 40.2.21)
+2025-01-05 20:14:19,440 [36mDEBUG[m [m[Server thread][m [mc.m.MohistMC.addEnumMaterialInItems(119)[m: Save-ITEM: FLASHNPCS_NPC_EDITOR - flashnpcs:npc_editor
+2025-01-05 20:14:19,443 [36mDEBUG[m [m[Server thread][m [mc.m.MohistMC.addEnumMaterialInItems(119)[m: Save-ITEM: FLASHNPCS_QUEST_EDITOR - flashnpcs:quest_editor
+2025-01-05 20:14:19,443 [36mDEBUG[m [m[Server thread][m [mc.m.MohistMC.addEnumMaterialInItems(119)[m: Save-ITEM: FLASHNPCS_NPC_SAVE_TOOL - flashnpcs:npc_save_tool
+2025-01-05 20:14:19,447 [36mDEBUG[m [m[Server thread][m [mc.m.MohistMC.addEnumEffectAndPotion(175)[m: Registered minecraft:speed as potion net.minecraft.world.effect.MobEffect@1884e671
+2025-01-05 20:14:19,453 [36mDEBUG[m [m[Server thread][m [mc.m.MohistMC.addEnumEffectAndPotion(175)[m: Registered minecraft:slowness as potion net.minecraft.world.effect.MobEffect@5158a9f7
+2025-01-05 20:14:19,454 [36mDEBUG[m [m[Server thread][m [mc.m.MohistMC.addEnumEffectAndPotion(175)[m: Registered minecraft:haste as potion net.minecraft.world.effect.MobEffect@4387d2f4
+2025-01-05 20:14:19,454 [36mDEBUG[m [m[Server thread][m [mc.m.MohistMC.addEnumEffectAndPotion(175)[m: Registered minecraft:mining_fatigue as potion net.minecraft.world.effect.MobEffect@93ce24d
+2025-01-05 20:14:19,454 [36mDEBUG[m [m[Server thread][m [mc.m.MohistMC.addEnumEffectAndPotion(175)[m: Registered minecraft:strength as potion net.minecraft.world.effect.AttackDamageMobEffect@553fbe94
+2025-01-05 20:14:19,454 [36mDEBUG[m [m[Server thread][m [mc.m.MohistMC.addEnumEffectAndPotion(175)[m: Registered minecraft:instant_health as potion net.minecraft.world.effect.InstantenousMobEffect@1218e12
+2025-01-05 20:14:19,455 [36mDEBUG[m [m[Server thread][m [mc.m.MohistMC.addEnumEffectAndPotion(175)[m: Registered minecraft:instant_damage as potion net.minecraft.world.effect.InstantenousMobEffect@30704f85
+2025-01-05 20:14:19,455 [36mDEBUG[m [m[Server thread][m [mc.m.MohistMC.addEnumEffectAndPotion(175)[m: Registered minecraft:jump_boost as potion net.minecraft.world.effect.MobEffect@26c59348
+2025-01-05 20:14:19,455 [36mDEBUG[m [m[Server thread][m [mc.m.MohistMC.addEnumEffectAndPotion(175)[m: Registered minecraft:nausea as potion net.minecraft.world.effect.MobEffect@2f5f5bc9
+2025-01-05 20:14:19,455 [36mDEBUG[m [m[Server thread][m [mc.m.MohistMC.addEnumEffectAndPotion(175)[m: Registered minecraft:regeneration as potion net.minecraft.world.effect.MobEffect@403f7aa2
+2025-01-05 20:14:19,455 [36mDEBUG[m [m[Server thread][m [mc.m.MohistMC.addEnumEffectAndPotion(175)[m: Registered minecraft:resistance as potion net.minecraft.world.effect.MobEffect@1029cf9
+2025-01-05 20:14:19,456 [36mDEBUG[m [m[Server thread][m [mc.m.MohistMC.addEnumEffectAndPotion(175)[m: Registered minecraft:fire_resistance as potion net.minecraft.world.effect.MobEffect@27dfd12b
+2025-01-05 20:14:19,456 [36mDEBUG[m [m[Server thread][m [mc.m.MohistMC.addEnumEffectAndPotion(175)[m: Registered minecraft:water_breathing as potion net.minecraft.world.effect.MobEffect@563843f1
+2025-01-05 20:14:19,456 [36mDEBUG[m [m[Server thread][m [mc.m.MohistMC.addEnumEffectAndPotion(175)[m: Registered minecraft:invisibility as potion net.minecraft.world.effect.MobEffect@61c4cebd
+2025-01-05 20:14:19,456 [36mDEBUG[m [m[Server thread][m [mc.m.MohistMC.addEnumEffectAndPotion(175)[m: Registered minecraft:blindness as potion net.minecraft.world.effect.MobEffect@716ae973
+2025-01-05 20:14:19,457 [36mDEBUG[m [m[Server thread][m [mc.m.MohistMC.addEnumEffectAndPotion(175)[m: Registered minecraft:night_vision as potion net.minecraft.world.effect.MobEffect@56872fcb
+2025-01-05 20:14:19,457 [36mDEBUG[m [m[Server thread][m [mc.m.MohistMC.addEnumEffectAndPotion(175)[m: Registered minecraft:hunger as potion net.minecraft.world.effect.MobEffect@5d3b6585
+2025-01-05 20:14:19,457 [36mDEBUG[m [m[Server thread][m [mc.m.MohistMC.addEnumEffectAndPotion(175)[m: Registered minecraft:weakness as potion net.minecraft.world.effect.AttackDamageMobEffect@2e93108a
+2025-01-05 20:14:19,457 [36mDEBUG[m [m[Server thread][m [mc.m.MohistMC.addEnumEffectAndPotion(175)[m: Registered minecraft:poison as potion net.minecraft.world.effect.MobEffect@32f308c6
+2025-01-05 20:14:19,457 [36mDEBUG[m [m[Server thread][m [mc.m.MohistMC.addEnumEffectAndPotion(175)[m: Registered minecraft:wither as potion net.minecraft.world.effect.MobEffect@698ac187
+2025-01-05 20:14:19,458 [36mDEBUG[m [m[Server thread][m [mc.m.MohistMC.addEnumEffectAndPotion(175)[m: Registered minecraft:health_boost as potion net.minecraft.world.effect.HealthBoostMobEffect@4489f60f
+2025-01-05 20:14:19,466 [36mDEBUG[m [m[Server thread][m [mc.m.MohistMC.addEnumEffectAndPotion(175)[m: Registered minecraft:absorption as potion net.minecraft.world.effect.AbsoptionMobEffect@7b3085a3
+2025-01-05 20:14:19,466 [36mDEBUG[m [m[Server thread][m [mc.m.MohistMC.addEnumEffectAndPotion(175)[m: Registered minecraft:saturation as potion net.minecraft.world.effect.InstantenousMobEffect@7b1c501d
+2025-01-05 20:14:19,466 [36mDEBUG[m [m[Server thread][m [mc.m.MohistMC.addEnumEffectAndPotion(175)[m: Registered minecraft:glowing as potion net.minecraft.world.effect.MobEffect@25d9291a
+2025-01-05 20:14:19,467 [36mDEBUG[m [m[Server thread][m [mc.m.MohistMC.addEnumEffectAndPotion(175)[m: Registered minecraft:levitation as potion net.minecraft.world.effect.MobEffect@5d5574c7
+2025-01-05 20:14:19,467 [36mDEBUG[m [m[Server thread][m [mc.m.MohistMC.addEnumEffectAndPotion(175)[m: Registered minecraft:luck as potion net.minecraft.world.effect.MobEffect@36871e98
+2025-01-05 20:14:19,467 [36mDEBUG[m [m[Server thread][m [mc.m.MohistMC.addEnumEffectAndPotion(175)[m: Registered minecraft:unluck as potion net.minecraft.world.effect.MobEffect@6533629
+2025-01-05 20:14:19,467 [36mDEBUG[m [m[Server thread][m [mc.m.MohistMC.addEnumEffectAndPotion(175)[m: Registered minecraft:slow_falling as potion net.minecraft.world.effect.MobEffect@1b444b5
+2025-01-05 20:14:19,467 [36mDEBUG[m [m[Server thread][m [mc.m.MohistMC.addEnumEffectAndPotion(175)[m: Registered minecraft:conduit_power as potion net.minecraft.world.effect.MobEffect@5ae66c98
+2025-01-05 20:14:19,468 [36mDEBUG[m [m[Server thread][m [mc.m.MohistMC.addEnumEffectAndPotion(175)[m: Registered minecraft:dolphins_grace as potion net.minecraft.world.effect.MobEffect@391d28ea
+2025-01-05 20:14:19,468 [36mDEBUG[m [m[Server thread][m [mc.m.MohistMC.addEnumEffectAndPotion(175)[m: Registered minecraft:bad_omen as potion net.minecraft.world.effect.MobEffects$1@2acca224
+2025-01-05 20:14:19,468 [36mDEBUG[m [m[Server thread][m [mc.m.MohistMC.addEnumEffectAndPotion(175)[m: Registered minecraft:hero_of_the_village as potion net.minecraft.world.effect.MobEffect@223cbf0d
+2025-01-05 20:14:19,697 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: Debug logging is enabled
+2025-01-05 20:14:19,698 [32mINFO [m [m[Server thread][m [m.playerSample(274)[m: Server Ping Player Sample Count: 12
+2025-01-05 20:14:19,706 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: Using 4 threads for Netty based IO
+2025-01-05 20:14:19,759 [36mDEBUG[m [m[Server thread][m [mn.m.f.l.FileUtils.getOrCreateDirectory(41)[m: Found existing serverconfig directory : ./world/serverconfig
+2025-01-05 20:14:19,770 [36mDEBUG[m [m[Server thread][m [mn.m.f.c.ConfigTracker.loadConfigs(49)[m: Loading configs type SERVER
+2025-01-05 20:14:19,770 [36mDEBUG[m [m[Server thread][m [mn.m.f.c.ConfigFileTypeHandler.lambda$reader$1(40)[m: Built TOML config for ./world/serverconfig/forge-server.toml
+2025-01-05 20:14:19,771 [36mDEBUG[m [m[Server thread][m [mn.m.f.c.ConfigFileTypeHandler.lambda$reader$1(49)[m: Loaded TOML config file ./world/serverconfig/forge-server.toml
+2025-01-05 20:14:19,772 [36mDEBUG[m [m[Server thread][m [mn.m.f.c.ConfigFileTypeHandler.lambda$reader$1(52)[m: Watching TOML config file ./world/serverconfig/forge-server.toml for changes
+2025-01-05 20:14:19,772 [36mDEBUG[m [m[Server thread][m [mn.m.c.ForgeConfig.onLoad(202)[m: Loaded forge config file forge-server.toml
+2025-01-05 20:14:19,783 [36mDEBUG[m [m[Thread-0][m [mn.m.f.c.ConfigFileTypeHandler.run(145)[m: Config file forge-server.toml changed, sending notifies
+2025-01-05 20:14:19,783 [36mDEBUG[m [m[Thread-0][m [mn.m.c.ForgeConfig.onFileChange(207)[m: Forge config just got changed on the file system!
+2025-01-05 20:14:19,794 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(224)[m: Preparing level "world"
+2025-01-05 20:14:20,676 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129940_(601)[m: Preparing start region for dimension minecraft:overworld
+2025-01-05 20:14:22,631 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-05 20:14:22,642 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-05 20:14:22,661 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-05 20:14:22,666 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-05 20:14:22,678 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-05 20:14:23,255 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-05 20:14:23,750 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-05 20:14:24,179 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-05 20:14:24,678 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-05 20:14:25,207 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-05 20:14:25,678 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-05 20:14:26,180 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-05 20:14:26,679 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-05 20:14:27,183 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 3%
+2025-01-05 20:14:30,904 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 11%
+2025-01-05 20:14:30,912 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 11%
+2025-01-05 20:14:30,913 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 11%
+2025-01-05 20:14:30,914 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 11%
+2025-01-05 20:14:30,914 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 11%
+2025-01-05 20:14:30,915 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 11%
+2025-01-05 20:14:30,919 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 11%
+2025-01-05 20:14:31,230 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 17%
+2025-01-05 20:14:31,680 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 28%
+2025-01-05 20:14:32,219 [32mINFO [m [m[Server thread][m [mn.m.s.l.p.LoggerChunkProgressListener.m_7646_(55)[m: Time elapsed: 11541 ms
+2025-01-05 20:14:32,330 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129940_(601)[m: Preparing start region for dimension minecraft:the_nether
+2025-01-05 20:14:33,026 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-05 20:14:33,029 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-05 20:14:33,334 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-05 20:14:33,833 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-05 20:14:34,333 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 4%
+2025-01-05 20:14:35,189 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 16%
+2025-01-05 20:14:35,447 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 27%
+2025-01-05 20:14:35,942 [32mINFO [m [m[Server thread][m [mn.m.s.l.p.LoggerChunkProgressListener.m_7646_(55)[m: Time elapsed: 3610 ms
+2025-01-05 20:14:35,945 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129940_(601)[m: Preparing start region for dimension minecraft:the_end
+2025-01-05 20:14:36,494 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-05 20:14:36,495 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-05 20:14:36,948 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 2%
+2025-01-05 20:14:37,448 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 27%
+2025-01-05 20:14:38,004 [32mINFO [m [m[Server thread][m [mn.m.s.l.p.LoggerChunkProgressListener.m_7646_(55)[m: Time elapsed: 2056 ms
+2025-01-05 20:14:38,031 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: Server permissions file permissions.yml is empty, ignoring it
+2025-01-05 20:14:38,039 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(228)[m: Done (18.283s)! For help, type "help"
+2025-01-05 20:14:38,089 [36mDEBUG[m [m[Server thread][m [mn.m.c.ForgeI18n.loadLanguageData(82)[m: Loading I18N data entries: 224
+2025-01-05 20:14:38,095 [32mINFO [m [m[Server thread][m [mn.m.s.p.PermissionAPI.initializePermissionAPI(130)[m: Successfully initialized permission handler forge:default_handler
+2025-01-05 20:14:43,155 [36mDEBUG[m [m[Netty Epoll Server IO #1][m [mi.n.u.Recycler.<clinit>(103)[m: -Dio.netty.recycler.maxCapacityPerThread: 4096
+2025-01-05 20:14:43,157 [36mDEBUG[m [m[Netty Epoll Server IO #1][m [mi.n.u.Recycler.<clinit>(104)[m: -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2025-01-05 20:14:43,157 [36mDEBUG[m [m[Netty Epoll Server IO #1][m [mi.n.u.Recycler.<clinit>(105)[m: -Dio.netty.recycler.linkCapacity: 16
+2025-01-05 20:14:43,158 [36mDEBUG[m [m[Netty Epoll Server IO #1][m [mi.n.u.Recycler.<clinit>(106)[m: -Dio.netty.recycler.ratio: 8
+2025-01-05 20:14:43,159 [36mDEBUG[m [m[Netty Epoll Server IO #1][m [mi.n.u.Recycler.<clinit>(107)[m: -Dio.netty.recycler.delayedQueue.ratio: 8
+2025-01-05 20:14:43,195 [36mDEBUG[m [m[Netty Epoll Server IO #1][m [mi.n.b.AbstractByteBuf.<clinit>(63)[m: -Dio.netty.buffer.checkAccessible: true
+2025-01-05 20:14:43,196 [36mDEBUG[m [m[Netty Epoll Server IO #1][m [mi.n.b.AbstractByteBuf.<clinit>(64)[m: -Dio.netty.buffer.checkBounds: true
+2025-01-05 20:14:43,197 [36mDEBUG[m [m[Netty Epoll Server IO #1][m [mi.n.u.ResourceLeakDetectorFactory.newResourceLeakDetector(196)[m: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2e9c3971
+2025-01-05 20:14:43,277 [36mDEBUG[m [m[Netty Epoll Server IO #1][m [mn.m.n.HandshakeHandler.<init>(133)[m: Starting new modded impl connection. Found 19 messages to dispatch.
+2025-01-05 20:14:43,291 [32mINFO [m [m[User Authenticator #1][m [mn.m.s.n.ServerLoginPacketListenerImpl.fireEvents(401)[m: UUID of player Suafita is e3921829-260f-34af-a9f2-9465a970f372
+2025-01-05 20:14:43,319 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'net.minecraftforge.network.HandshakeMessages$S2CModData' to 'fml:handshake' sequence 0
+2025-01-05 20:14:43,355 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'net.minecraftforge.network.HandshakeMessages$S2CModList' to 'fml:handshake' sequence 1
+2025-01-05 20:14:43,405 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'Registry minecraft:recipe_serializer' to 'fml:handshake' sequence 2
+2025-01-05 20:14:43,457 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'Registry minecraft:sound_event' to 'fml:handshake' sequence 3
+2025-01-05 20:14:43,506 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'Registry minecraft:particle_type' to 'fml:handshake' sequence 4
+2025-01-05 20:14:43,565 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'Registry minecraft:villager_profession' to 'fml:handshake' sequence 5
+2025-01-05 20:14:43,619 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'Registry minecraft:item' to 'fml:handshake' sequence 6
+2025-01-05 20:14:43,659 [36mDEBUG[m [m[Netty Epoll Server IO #1][m [mn.m.n.LoginWrapper.wrapperReceived(49)[m: Recieved login wrapper packet event for channel fml:handshake with index 1
+2025-01-05 20:14:43,661 [36mDEBUG[m [m[Netty Epoll Server IO #1][m [mn.m.n.HandshakeHandler.handleIndexedMessage(233)[m: Received client indexed reply 1 of type net.minecraftforge.network.HandshakeMessages$C2SModListReply
+2025-01-05 20:14:43,662 [36mDEBUG[m [m[Netty Epoll Server IO #1][m [mn.m.n.HandshakeHandler.handleClientModListOnServer(242)[m: Received client connection with modlist [minecraft, forge, flashnpcs, oculus, embeddium, rubidium]
+2025-01-05 20:14:43,663 [36mDEBUG[m [m[Netty Epoll Server IO #1][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'fml:loginwrapper' : Version test of 'FML3' from client : ACCEPTED
+2025-01-05 20:14:43,664 [36mDEBUG[m [m[Netty Epoll Server IO #1][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'forge:tier_sorting' : Version test of '1.0' from client : ACCEPTED
+2025-01-05 20:14:43,664 [36mDEBUG[m [m[Netty Epoll Server IO #1][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'fml:handshake' : Version test of 'FML3' from client : ACCEPTED
+2025-01-05 20:14:43,664 [36mDEBUG[m [m[Netty Epoll Server IO #1][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'flashnpcs:main' : Version test of '1' from client : ACCEPTED
+2025-01-05 20:14:43,664 [36mDEBUG[m [m[Netty Epoll Server IO #1][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'minecraft:unregister' : Version test of 'FML3' from client : ACCEPTED
+2025-01-05 20:14:43,665 [36mDEBUG[m [m[Netty Epoll Server IO #1][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'fml:play' : Version test of 'FML3' from client : ACCEPTED
+2025-01-05 20:14:43,665 [36mDEBUG[m [m[Netty Epoll Server IO #1][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'minecraft:register' : Version test of 'FML3' from client : ACCEPTED
+2025-01-05 20:14:43,665 [36mDEBUG[m [m[Netty Epoll Server IO #1][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'forge:split' : Version test of '1.1' from client : ACCEPTED
+2025-01-05 20:14:43,665 [36mDEBUG[m [m[Netty Epoll Server IO #1][m [mn.m.n.NetworkRegistry.validateChannels(244)[m: Accepting channel list from client
+2025-01-05 20:14:43,668 [36mDEBUG[m [m[Netty Epoll Server IO #1][m [mn.m.n.HandshakeHandler.handleClientModListOnServer(253)[m: Accepted client connection mod list
+2025-01-05 20:14:43,681 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'Registry minecraft:potion' to 'fml:handshake' sequence 7
+2025-01-05 20:14:43,702 [36mDEBUG[m [m[Netty Epoll Server IO #1][m [mn.m.n.LoginWrapper.wrapperReceived(49)[m: Recieved login wrapper packet event for channel fml:handshake with index 2
+2025-01-05 20:14:43,703 [36mDEBUG[m [m[Netty Epoll Server IO #1][m [mn.m.n.HandshakeHandler.handleIndexedMessage(233)[m: Received client indexed reply 2 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-05 20:14:43,704 [36mDEBUG[m [m[Netty Epoll Server IO #1][m [mn.m.n.HandshakeHandler.handleClientAck(323)[m: Received acknowledgement from client
+2025-01-05 20:14:43,720 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'Registry minecraft:block_entity_type' to 'fml:handshake' sequence 8
+2025-01-05 20:14:43,758 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'Registry minecraft:block' to 'fml:handshake' sequence 9
+2025-01-05 20:14:43,867 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'Registry minecraft:data_serializers' to 'fml:handshake' sequence 10
+2025-01-05 20:14:43,882 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'Registry minecraft:mob_effect' to 'fml:handshake' sequence 11
+2025-01-05 20:14:43,903 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'Registry minecraft:stat_type' to 'fml:handshake' sequence 12
+2025-01-05 20:14:43,962 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'Registry minecraft:menu' to 'fml:handshake' sequence 13
+2025-01-05 20:14:44,007 [36mDEBUG[m [m[Netty Epoll Server IO #1][m [mn.m.n.LoginWrapper.wrapperReceived(49)[m: Recieved login wrapper packet event for channel fml:handshake with index 3
+2025-01-05 20:14:44,007 [36mDEBUG[m [m[Netty Epoll Server IO #1][m [mn.m.n.HandshakeHandler.handleIndexedMessage(233)[m: Received client indexed reply 3 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-05 20:14:44,007 [36mDEBUG[m [m[Netty Epoll Server IO #1][m [mn.m.n.HandshakeHandler.handleClientAck(323)[m: Received acknowledgement from client
+2025-01-05 20:14:44,008 [36mDEBUG[m [m[Netty Epoll Server IO #1][m [mn.m.n.LoginWrapper.wrapperReceived(49)[m: Recieved login wrapper packet event for channel fml:handshake with index 4
+2025-01-05 20:14:44,008 [36mDEBUG[m [m[Netty Epoll Server IO #1][m [mn.m.n.HandshakeHandler.handleIndexedMessage(233)[m: Received client indexed reply 4 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-05 20:14:44,008 [36mDEBUG[m [m[Netty Epoll Server IO #1][m [mn.m.n.HandshakeHandler.handleClientAck(323)[m: Received acknowledgement from client
+2025-01-05 20:14:44,008 [36mDEBUG[m [m[Netty Epoll Server IO #1][m [mn.m.n.LoginWrapper.wrapperReceived(49)[m: Recieved login wrapper packet event for channel fml:handshake with index 5
+2025-01-05 20:14:44,009 [36mDEBUG[m [m[Netty Epoll Server IO #1][m [mn.m.n.HandshakeHandler.handleIndexedMessage(233)[m: Received client indexed reply 5 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-05 20:14:44,009 [36mDEBUG[m [m[Netty Epoll Server IO #1][m [mn.m.n.HandshakeHandler.handleClientAck(323)[m: Received acknowledgement from client
+2025-01-05 20:14:44,027 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'Registry minecraft:enchantment' to 'fml:handshake' sequence 14
+2025-01-05 20:14:44,058 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'Registry minecraft:motive' to 'fml:handshake' sequence 15
+2025-01-05 20:14:44,119 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'Registry minecraft:fluid' to 'fml:handshake' sequence 16
+2025-01-05 20:14:44,159 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'Registry minecraft:entity_type' to 'fml:handshake' sequence 17
+2025-01-05 20:14:44,207 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'Config forge-server.toml' to 'fml:handshake' sequence 18
+2025-01-05 20:15:13,252 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerLoginPacketListenerImpl.m_10053_(109)[m: Disconnecting com.mojang.authlib.GameProfile@31e0522d[id=e3921829-260f-34af-a9f2-9465a970f372,name=Suafita,properties={},legacy=false] (/127.0.0.1:48352): Took too long to log in
+2025-01-05 20:15:13,298 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerLoginPacketListenerImpl.m_7026_(185)[m: com.mojang.authlib.GameProfile@31e0522d[id=e3921829-260f-34af-a9f2-9465a970f372,name=Suafita,properties={},legacy=false] (/127.0.0.1:48352) lost connection: Took too long to log in
+2025-01-05 20:15:53,394 [36mDEBUG[m [m[Netty Epoll Server IO #2][m [mn.m.n.HandshakeHandler.<init>(133)[m: Starting new modded impl connection. Found 19 messages to dispatch.
+2025-01-05 20:15:53,395 [32mINFO [m [m[User Authenticator #2][m [mn.m.s.n.ServerLoginPacketListenerImpl.fireEvents(401)[m: UUID of player Suafita is e3921829-260f-34af-a9f2-9465a970f372
+2025-01-05 20:15:53,399 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'net.minecraftforge.network.HandshakeMessages$S2CModData' to 'fml:handshake' sequence 0
+2025-01-05 20:15:53,446 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'net.minecraftforge.network.HandshakeMessages$S2CModList' to 'fml:handshake' sequence 1
+2025-01-05 20:15:53,496 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'Registry minecraft:recipe_serializer' to 'fml:handshake' sequence 2
+2025-01-05 20:15:53,546 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'Registry minecraft:sound_event' to 'fml:handshake' sequence 3
+2025-01-05 20:15:53,596 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'Registry minecraft:particle_type' to 'fml:handshake' sequence 4
+2025-01-05 20:15:53,646 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'Registry minecraft:villager_profession' to 'fml:handshake' sequence 5
+2025-01-05 20:15:53,696 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'Registry minecraft:item' to 'fml:handshake' sequence 6
+2025-01-05 20:15:53,734 [36mDEBUG[m [m[Netty Epoll Server IO #2][m [mn.m.n.LoginWrapper.wrapperReceived(49)[m: Recieved login wrapper packet event for channel fml:handshake with index 1
+2025-01-05 20:15:53,734 [36mDEBUG[m [m[Netty Epoll Server IO #2][m [mn.m.n.HandshakeHandler.handleIndexedMessage(233)[m: Received client indexed reply 1 of type net.minecraftforge.network.HandshakeMessages$C2SModListReply
+2025-01-05 20:15:53,734 [36mDEBUG[m [m[Netty Epoll Server IO #2][m [mn.m.n.HandshakeHandler.handleClientModListOnServer(242)[m: Received client connection with modlist [minecraft, forge, flashnpcs, oculus, embeddium, rubidium]
+2025-01-05 20:15:53,734 [36mDEBUG[m [m[Netty Epoll Server IO #2][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'fml:loginwrapper' : Version test of 'FML3' from client : ACCEPTED
+2025-01-05 20:15:53,735 [36mDEBUG[m [m[Netty Epoll Server IO #2][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'forge:tier_sorting' : Version test of '1.0' from client : ACCEPTED
+2025-01-05 20:15:53,735 [36mDEBUG[m [m[Netty Epoll Server IO #2][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'fml:handshake' : Version test of 'FML3' from client : ACCEPTED
+2025-01-05 20:15:53,735 [36mDEBUG[m [m[Netty Epoll Server IO #2][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'flashnpcs:main' : Version test of '1' from client : ACCEPTED
+2025-01-05 20:15:53,735 [36mDEBUG[m [m[Netty Epoll Server IO #2][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'minecraft:unregister' : Version test of 'FML3' from client : ACCEPTED
+2025-01-05 20:15:53,735 [36mDEBUG[m [m[Netty Epoll Server IO #2][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'fml:play' : Version test of 'FML3' from client : ACCEPTED
+2025-01-05 20:15:53,735 [36mDEBUG[m [m[Netty Epoll Server IO #2][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'minecraft:register' : Version test of 'FML3' from client : ACCEPTED
+2025-01-05 20:15:53,735 [36mDEBUG[m [m[Netty Epoll Server IO #2][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'forge:split' : Version test of '1.1' from client : ACCEPTED
+2025-01-05 20:15:53,735 [36mDEBUG[m [m[Netty Epoll Server IO #2][m [mn.m.n.NetworkRegistry.validateChannels(244)[m: Accepting channel list from client
+2025-01-05 20:15:53,735 [36mDEBUG[m [m[Netty Epoll Server IO #2][m [mn.m.n.HandshakeHandler.handleClientModListOnServer(253)[m: Accepted client connection mod list
+2025-01-05 20:15:53,746 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'Registry minecraft:potion' to 'fml:handshake' sequence 7
+2025-01-05 20:15:53,782 [36mDEBUG[m [m[Netty Epoll Server IO #2][m [mn.m.n.LoginWrapper.wrapperReceived(49)[m: Recieved login wrapper packet event for channel fml:handshake with index 2
+2025-01-05 20:15:53,782 [36mDEBUG[m [m[Netty Epoll Server IO #2][m [mn.m.n.HandshakeHandler.handleIndexedMessage(233)[m: Received client indexed reply 2 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-05 20:15:53,783 [36mDEBUG[m [m[Netty Epoll Server IO #2][m [mn.m.n.HandshakeHandler.handleClientAck(323)[m: Received acknowledgement from client
+2025-01-05 20:15:53,796 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'Registry minecraft:block_entity_type' to 'fml:handshake' sequence 8
+2025-01-05 20:15:53,846 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'Registry minecraft:block' to 'fml:handshake' sequence 9
+2025-01-05 20:15:53,896 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'Registry minecraft:data_serializers' to 'fml:handshake' sequence 10
+2025-01-05 20:15:53,946 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'Registry minecraft:mob_effect' to 'fml:handshake' sequence 11
+2025-01-05 20:15:53,996 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'Registry minecraft:stat_type' to 'fml:handshake' sequence 12
+2025-01-05 20:15:54,046 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'Registry minecraft:menu' to 'fml:handshake' sequence 13
+2025-01-05 20:15:54,071 [36mDEBUG[m [m[Netty Epoll Server IO #2][m [mn.m.n.LoginWrapper.wrapperReceived(49)[m: Recieved login wrapper packet event for channel fml:handshake with index 3
+2025-01-05 20:15:54,071 [36mDEBUG[m [m[Netty Epoll Server IO #2][m [mn.m.n.HandshakeHandler.handleIndexedMessage(233)[m: Received client indexed reply 3 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-05 20:15:54,071 [36mDEBUG[m [m[Netty Epoll Server IO #2][m [mn.m.n.HandshakeHandler.handleClientAck(323)[m: Received acknowledgement from client
+2025-01-05 20:15:54,097 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'Registry minecraft:enchantment' to 'fml:handshake' sequence 14
+2025-01-05 20:15:54,146 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'Registry minecraft:motive' to 'fml:handshake' sequence 15
+2025-01-05 20:15:54,196 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'Registry minecraft:fluid' to 'fml:handshake' sequence 16
+2025-01-05 20:15:54,211 [36mDEBUG[m [m[Netty Epoll Server IO #2][m [mn.m.n.LoginWrapper.wrapperReceived(49)[m: Recieved login wrapper packet event for channel fml:handshake with index 4
+2025-01-05 20:15:54,212 [36mDEBUG[m [m[Netty Epoll Server IO #2][m [mn.m.n.HandshakeHandler.handleIndexedMessage(233)[m: Received client indexed reply 4 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-05 20:15:54,212 [36mDEBUG[m [m[Netty Epoll Server IO #2][m [mn.m.n.HandshakeHandler.handleClientAck(323)[m: Received acknowledgement from client
+2025-01-05 20:15:54,212 [36mDEBUG[m [m[Netty Epoll Server IO #2][m [mn.m.n.LoginWrapper.wrapperReceived(49)[m: Recieved login wrapper packet event for channel fml:handshake with index 5
+2025-01-05 20:15:54,212 [36mDEBUG[m [m[Netty Epoll Server IO #2][m [mn.m.n.HandshakeHandler.handleIndexedMessage(233)[m: Received client indexed reply 5 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-05 20:15:54,212 [36mDEBUG[m [m[Netty Epoll Server IO #2][m [mn.m.n.HandshakeHandler.handleClientAck(323)[m: Received acknowledgement from client
+2025-01-05 20:15:54,214 [36mDEBUG[m [m[Netty Epoll Server IO #2][m [mn.m.n.LoginWrapper.wrapperReceived(49)[m: Recieved login wrapper packet event for channel fml:handshake with index 6
+2025-01-05 20:15:54,214 [36mDEBUG[m [m[Netty Epoll Server IO #2][m [mn.m.n.HandshakeHandler.handleIndexedMessage(233)[m: Received client indexed reply 6 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-05 20:15:54,214 [36mDEBUG[m [m[Netty Epoll Server IO #2][m [mn.m.n.HandshakeHandler.handleClientAck(323)[m: Received acknowledgement from client
+2025-01-05 20:15:54,214 [36mDEBUG[m [m[Netty Epoll Server IO #2][m [mn.m.n.LoginWrapper.wrapperReceived(49)[m: Recieved login wrapper packet event for channel fml:handshake with index 7
+2025-01-05 20:15:54,215 [36mDEBUG[m [m[Netty Epoll Server IO #2][m [mn.m.n.HandshakeHandler.handleIndexedMessage(233)[m: Received client indexed reply 7 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-05 20:15:54,215 [36mDEBUG[m [m[Netty Epoll Server IO #2][m [mn.m.n.HandshakeHandler.handleClientAck(323)[m: Received acknowledgement from client
+2025-01-05 20:15:54,215 [36mDEBUG[m [m[Netty Epoll Server IO #2][m [mn.m.n.LoginWrapper.wrapperReceived(49)[m: Recieved login wrapper packet event for channel fml:handshake with index 8
+2025-01-05 20:15:54,215 [36mDEBUG[m [m[Netty Epoll Server IO #2][m [mn.m.n.HandshakeHandler.handleIndexedMessage(233)[m: Received client indexed reply 8 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-05 20:15:54,215 [36mDEBUG[m [m[Netty Epoll Server IO #2][m [mn.m.n.HandshakeHandler.handleClientAck(323)[m: Received acknowledgement from client
+2025-01-05 20:15:54,216 [36mDEBUG[m [m[Netty Epoll Server IO #2][m [mn.m.n.LoginWrapper.wrapperReceived(49)[m: Recieved login wrapper packet event for channel fml:handshake with index 9
+2025-01-05 20:15:54,216 [36mDEBUG[m [m[Netty Epoll Server IO #2][m [mn.m.n.HandshakeHandler.handleIndexedMessage(233)[m: Received client indexed reply 9 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-05 20:15:54,216 [36mDEBUG[m [m[Netty Epoll Server IO #2][m [mn.m.n.HandshakeHandler.handleClientAck(323)[m: Received acknowledgement from client
+2025-01-05 20:15:54,247 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'Registry minecraft:entity_type' to 'fml:handshake' sequence 17
+2025-01-05 20:15:54,297 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'Config forge-server.toml' to 'fml:handshake' sequence 18
+2025-01-05 20:15:58,180 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.HandshakeHandler.<init>(133)[m: Starting new modded impl connection. Found 19 messages to dispatch.
+2025-01-05 20:15:58,181 [32mINFO [m [m[User Authenticator #2][m [mn.m.s.n.ServerLoginPacketListenerImpl.fireEvents(401)[m: UUID of player Suafita is e3921829-260f-34af-a9f2-9465a970f372
+2025-01-05 20:15:58,197 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'net.minecraftforge.network.HandshakeMessages$S2CModData' to 'fml:handshake' sequence 0
+2025-01-05 20:15:58,246 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'net.minecraftforge.network.HandshakeMessages$S2CModList' to 'fml:handshake' sequence 1
+2025-01-05 20:15:58,296 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'Registry minecraft:recipe_serializer' to 'fml:handshake' sequence 2
+2025-01-05 20:15:58,346 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'Registry minecraft:sound_event' to 'fml:handshake' sequence 3
+2025-01-05 20:15:58,396 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'Registry minecraft:particle_type' to 'fml:handshake' sequence 4
+2025-01-05 20:15:58,446 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'Registry minecraft:villager_profession' to 'fml:handshake' sequence 5
+2025-01-05 20:15:58,496 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'Registry minecraft:item' to 'fml:handshake' sequence 6
+2025-01-05 20:15:58,546 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'Registry minecraft:potion' to 'fml:handshake' sequence 7
+2025-01-05 20:15:58,547 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.LoginWrapper.wrapperReceived(49)[m: Recieved login wrapper packet event for channel fml:handshake with index 1
+2025-01-05 20:15:58,548 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.HandshakeHandler.handleIndexedMessage(233)[m: Received client indexed reply 1 of type net.minecraftforge.network.HandshakeMessages$C2SModListReply
+2025-01-05 20:15:58,548 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.HandshakeHandler.handleClientModListOnServer(242)[m: Received client connection with modlist [minecraft, forge, flashnpcs, oculus, embeddium, rubidium]
+2025-01-05 20:15:58,548 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'fml:loginwrapper' : Version test of 'FML3' from client : ACCEPTED
+2025-01-05 20:15:58,548 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'forge:tier_sorting' : Version test of '1.0' from client : ACCEPTED
+2025-01-05 20:15:58,548 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'fml:handshake' : Version test of 'FML3' from client : ACCEPTED
+2025-01-05 20:15:58,548 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'flashnpcs:main' : Version test of '1' from client : ACCEPTED
+2025-01-05 20:15:58,548 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'minecraft:unregister' : Version test of 'FML3' from client : ACCEPTED
+2025-01-05 20:15:58,549 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'fml:play' : Version test of 'FML3' from client : ACCEPTED
+2025-01-05 20:15:58,549 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'minecraft:register' : Version test of 'FML3' from client : ACCEPTED
+2025-01-05 20:15:58,549 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.NetworkRegistry.lambda$validateChannels$5(234)[m: Channel 'forge:split' : Version test of '1.1' from client : ACCEPTED
+2025-01-05 20:15:58,549 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.NetworkRegistry.validateChannels(244)[m: Accepting channel list from client
+2025-01-05 20:15:58,549 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.HandshakeHandler.handleClientModListOnServer(253)[m: Accepted client connection mod list
+2025-01-05 20:15:58,595 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.LoginWrapper.wrapperReceived(49)[m: Recieved login wrapper packet event for channel fml:handshake with index 2
+2025-01-05 20:15:58,595 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.HandshakeHandler.handleIndexedMessage(233)[m: Received client indexed reply 2 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-05 20:15:58,595 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.HandshakeHandler.handleClientAck(323)[m: Received acknowledgement from client
+2025-01-05 20:15:58,596 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'Registry minecraft:block_entity_type' to 'fml:handshake' sequence 8
+2025-01-05 20:15:58,646 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'Registry minecraft:block' to 'fml:handshake' sequence 9
+2025-01-05 20:15:58,696 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'Registry minecraft:data_serializers' to 'fml:handshake' sequence 10
+2025-01-05 20:15:58,746 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'Registry minecraft:mob_effect' to 'fml:handshake' sequence 11
+2025-01-05 20:15:58,796 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'Registry minecraft:stat_type' to 'fml:handshake' sequence 12
+2025-01-05 20:15:58,846 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'Registry minecraft:menu' to 'fml:handshake' sequence 13
+2025-01-05 20:15:58,896 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'Registry minecraft:enchantment' to 'fml:handshake' sequence 14
+2025-01-05 20:15:58,904 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.LoginWrapper.wrapperReceived(49)[m: Recieved login wrapper packet event for channel fml:handshake with index 3
+2025-01-05 20:15:58,905 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.HandshakeHandler.handleIndexedMessage(233)[m: Received client indexed reply 3 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-05 20:15:58,905 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.HandshakeHandler.handleClientAck(323)[m: Received acknowledgement from client
+2025-01-05 20:15:58,905 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.LoginWrapper.wrapperReceived(49)[m: Recieved login wrapper packet event for channel fml:handshake with index 4
+2025-01-05 20:15:58,905 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.HandshakeHandler.handleIndexedMessage(233)[m: Received client indexed reply 4 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-05 20:15:58,906 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.HandshakeHandler.handleClientAck(323)[m: Received acknowledgement from client
+2025-01-05 20:15:58,906 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.LoginWrapper.wrapperReceived(49)[m: Recieved login wrapper packet event for channel fml:handshake with index 5
+2025-01-05 20:15:58,906 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.HandshakeHandler.handleIndexedMessage(233)[m: Received client indexed reply 5 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-05 20:15:58,906 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.HandshakeHandler.handleClientAck(323)[m: Received acknowledgement from client
+2025-01-05 20:15:58,947 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'Registry minecraft:motive' to 'fml:handshake' sequence 15
+2025-01-05 20:15:58,996 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'Registry minecraft:fluid' to 'fml:handshake' sequence 16
+2025-01-05 20:15:59,046 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'Registry minecraft:entity_type' to 'fml:handshake' sequence 17
+2025-01-05 20:15:59,052 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.LoginWrapper.wrapperReceived(49)[m: Recieved login wrapper packet event for channel fml:handshake with index 6
+2025-01-05 20:15:59,053 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.HandshakeHandler.handleIndexedMessage(233)[m: Received client indexed reply 6 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-05 20:15:59,053 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.HandshakeHandler.handleClientAck(323)[m: Received acknowledgement from client
+2025-01-05 20:15:59,053 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.LoginWrapper.wrapperReceived(49)[m: Recieved login wrapper packet event for channel fml:handshake with index 7
+2025-01-05 20:15:59,053 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.HandshakeHandler.handleIndexedMessage(233)[m: Received client indexed reply 7 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-05 20:15:59,053 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.HandshakeHandler.handleClientAck(323)[m: Received acknowledgement from client
+2025-01-05 20:15:59,053 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.LoginWrapper.wrapperReceived(49)[m: Recieved login wrapper packet event for channel fml:handshake with index 8
+2025-01-05 20:15:59,053 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.HandshakeHandler.handleIndexedMessage(233)[m: Received client indexed reply 8 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-05 20:15:59,054 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.HandshakeHandler.handleClientAck(323)[m: Received acknowledgement from client
+2025-01-05 20:15:59,058 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.LoginWrapper.wrapperReceived(49)[m: Recieved login wrapper packet event for channel fml:handshake with index 9
+2025-01-05 20:15:59,059 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.HandshakeHandler.handleIndexedMessage(233)[m: Received client indexed reply 9 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-05 20:15:59,059 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.HandshakeHandler.handleClientAck(323)[m: Received acknowledgement from client
+2025-01-05 20:15:59,059 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.LoginWrapper.wrapperReceived(49)[m: Recieved login wrapper packet event for channel fml:handshake with index 10
+2025-01-05 20:15:59,059 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.HandshakeHandler.handleIndexedMessage(233)[m: Received client indexed reply 10 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-05 20:15:59,059 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.HandshakeHandler.handleClientAck(323)[m: Received acknowledgement from client
+2025-01-05 20:15:59,059 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.LoginWrapper.wrapperReceived(49)[m: Recieved login wrapper packet event for channel fml:handshake with index 11
+2025-01-05 20:15:59,060 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.HandshakeHandler.handleIndexedMessage(233)[m: Received client indexed reply 11 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-05 20:15:59,060 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.HandshakeHandler.handleClientAck(323)[m: Received acknowledgement from client
+2025-01-05 20:15:59,094 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.LoginWrapper.wrapperReceived(49)[m: Recieved login wrapper packet event for channel fml:handshake with index 12
+2025-01-05 20:15:59,094 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.HandshakeHandler.handleIndexedMessage(233)[m: Received client indexed reply 12 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-05 20:15:59,094 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.HandshakeHandler.handleClientAck(323)[m: Received acknowledgement from client
+2025-01-05 20:15:59,096 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(356)[m: Sending ticking packet info 'Config forge-server.toml' to 'fml:handshake' sequence 18
+2025-01-05 20:15:59,144 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.LoginWrapper.wrapperReceived(49)[m: Recieved login wrapper packet event for channel fml:handshake with index 13
+2025-01-05 20:15:59,144 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.HandshakeHandler.handleIndexedMessage(233)[m: Received client indexed reply 13 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-05 20:15:59,144 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.HandshakeHandler.handleClientAck(323)[m: Received acknowledgement from client
+2025-01-05 20:15:59,194 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.LoginWrapper.wrapperReceived(49)[m: Recieved login wrapper packet event for channel fml:handshake with index 14
+2025-01-05 20:15:59,194 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.HandshakeHandler.handleIndexedMessage(233)[m: Received client indexed reply 14 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-05 20:15:59,194 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.HandshakeHandler.handleClientAck(323)[m: Received acknowledgement from client
+2025-01-05 20:15:59,245 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.LoginWrapper.wrapperReceived(49)[m: Recieved login wrapper packet event for channel fml:handshake with index 15
+2025-01-05 20:15:59,245 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.HandshakeHandler.handleIndexedMessage(233)[m: Received client indexed reply 15 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-05 20:15:59,245 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.HandshakeHandler.handleClientAck(323)[m: Received acknowledgement from client
+2025-01-05 20:15:59,295 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.LoginWrapper.wrapperReceived(49)[m: Recieved login wrapper packet event for channel fml:handshake with index 16
+2025-01-05 20:15:59,295 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.HandshakeHandler.handleIndexedMessage(233)[m: Received client indexed reply 16 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-05 20:15:59,295 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.HandshakeHandler.handleClientAck(323)[m: Received acknowledgement from client
+2025-01-05 20:15:59,737 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.LoginWrapper.wrapperReceived(49)[m: Recieved login wrapper packet event for channel fml:handshake with index 17
+2025-01-05 20:15:59,737 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.HandshakeHandler.handleIndexedMessage(233)[m: Received client indexed reply 17 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-05 20:15:59,737 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.HandshakeHandler.handleClientAck(323)[m: Received acknowledgement from client
+2025-01-05 20:15:59,737 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.LoginWrapper.wrapperReceived(49)[m: Recieved login wrapper packet event for channel fml:handshake with index 18
+2025-01-05 20:15:59,737 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.HandshakeHandler.handleIndexedMessage(233)[m: Received client indexed reply 18 of type net.minecraftforge.network.HandshakeMessages$C2SAcknowledge
+2025-01-05 20:15:59,738 [36mDEBUG[m [m[Netty Epoll Server IO #4][m [mn.m.n.HandshakeHandler.handleClientAck(323)[m: Received acknowledgement from client
+2025-01-05 20:15:59,746 [36mDEBUG[m [m[Server thread][m [mn.m.n.HandshakeHandler.tickServer(383)[m: Handshake complete!
+2025-01-05 20:15:59,828 [32mINFO [m [m[Server thread][m [mn.m.c.AdvancementLoadFix.loadVisibility(36)[m: Using new advancement loading for net.minecraft.server.PlayerAdvancements@215ac2e0
+2025-01-05 20:16:00,153 [32mINFO [m [m[Server thread][m [mn.m.s.p.PlayerList.m_11261_(338)[m: Suafita[/127.0.0.1:44218] logged in with entity id 326 at (121.51220962188633, 72.0, 47.3492297404556)
+2025-01-05 20:16:06,151 [36mDEBUG[m [m[Server thread][m [mi.n.u.i.ThreadLocalRandom.newSeed(214)[m: -Dio.netty.initialSeedUniquifier: 0x618b2ebe35bff322
+2025-01-05 20:16:23,399 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerLoginPacketListenerImpl.m_10053_(109)[m: Disconnecting com.mojang.authlib.GameProfile@5b994618[id=e3921829-260f-34af-a9f2-9465a970f372,name=Suafita,properties={},legacy=false] (/127.0.0.1:44198): Took too long to log in
+2025-01-05 20:16:23,449 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerLoginPacketListenerImpl.m_7026_(185)[m: com.mojang.authlib.GameProfile@5b994618[id=e3921829-260f-34af-a9f2-9465a970f372,name=Suafita,properties={},legacy=false] (/127.0.0.1:44198) lost connection: Took too long to log in
+2025-01-05 20:16:31,449 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: Unknown command. Type "help" for help.
+2025-01-05 20:16:55,610 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_9957_(1721)[m: Suafita issued server command: /reload confirm
+2025-01-05 20:16:55,612 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: Suafita: §cPlease note that this command is not supported and may cause issues when using some plugins.
+2025-01-05 20:16:55,613 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: Suafita: §cIf you encounter any issues please use the /stop command to restart your server.
+2025-01-05 20:16:55,623 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: Debug logging is enabled
+2025-01-05 20:16:55,623 [32mINFO [m [m[Server thread][m [m.playerSample(274)[m: Server Ping Player Sample Count: 12
+2025-01-05 20:16:55,624 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: Using 4 threads for Netty based IO
+2025-01-05 20:16:55,641 [36mDEBUG[m [m[Server thread][m [mn.m.s.ServerLifecycleHooks.serverPackFinder(219)[m: Generating PackInfo named mod:forge for mod file /workspaces/MINESERVER/servidor_minecraft/libraries/net/minecraftforge/forge/1.18.2-40.2.21/forge-1.18.2-40.2.21-universal.jar
+2025-01-05 20:16:55,641 [36mDEBUG[m [m[Server thread][m [mn.m.s.ServerLifecycleHooks.serverPackFinder(219)[m: Generating PackInfo named mod:flashnpcs for mod file /workspaces/MINESERVER/servidor_minecraft/mods/flashnpcs-1.18.2-1.2.0.jar
+2025-01-05 20:16:55,653 [33mWARN [m [m[Server thread][m [mn.m.c.Commands.m_82107_(214)[m: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+2025-01-05 20:16:55,654 [33mWARN [m [m[Server thread][m [mn.m.c.Commands.m_82107_(214)[m: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+2025-01-05 20:16:55,655 [33mWARN [m [m[Server thread][m [mn.m.c.Commands.m_82107_(214)[m: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+2025-01-05 20:16:55,657 [33mWARN [m [m[Server thread][m [mn.m.c.Commands.m_82107_(214)[m: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+2025-01-05 20:16:55,658 [33mWARN [m [m[Server thread][m [mn.m.c.Commands.m_82107_(214)[m: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+2025-01-05 20:16:56,944 [32mINFO [m [m[Server thread][m [mn.m.w.i.c.RecipeManager.m_5787_(85)[m: Loaded 7 recipes
+2025-01-05 20:16:57,842 [32mINFO [m [m[Server thread][m [mn.m.c.AdvancementLoadFix.loadVisibility(36)[m: Using new advancement loading for net.minecraft.server.PlayerAdvancements@215ac2e0
+2025-01-05 20:16:57,855 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: Server permissions file permissions.yml is empty, ignoring it
+2025-01-05 20:16:57,860 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: Suafita: §aReload complete.
+2025-01-05 20:17:11,949 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: Unknown command. Type "help" for help.
+2025-01-05 20:19:38,083 [36mDEBUG[m [m[Server thread][m [mn.m.c.ForgeHooks.writeAdditionalLevelSaveData(1442)[m: Gathering id map for writing to world save world
+2025-01-05 20:19:38,092 [36mDEBUG[m [m[Server thread][m [mn.m.c.ForgeHooks.writeAdditionalLevelSaveData(1448)[m: ID Map collection complete world

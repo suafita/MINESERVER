@@ -1,121 +1,101 @@
-[18:37:57] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[18:37:57] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[18:37:59] [ServerMain/INFO]: Loaded 7 recipes
-[18:38:00] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[18:38:00] [Server thread/INFO]: Loading properties
-[18:38:00] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
-[18:38:01] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[18:38:01] [Server thread/INFO]: Using 4 threads for Netty based IO
-[18:38:01] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[18:38:01] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
-    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
-    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[18:38:01] [Server thread/INFO]: Default game type: SURVIVAL
-[18:38:01] [Server thread/INFO]: Generating keypair
-[18:38:01] [Server thread/INFO]: Starting Minecraft server on *:25565
-[18:38:01] [Server thread/INFO]: Using epoll channel type
-[18:38:01] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[18:38:01] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[18:38:01] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18:38:01] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[18:38:01] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[18:38:01] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[18:38:01] [Server thread/INFO]: Preparing level "world"
-[18:38:11] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[18:38:11] [Server thread/INFO]: Time elapsed: 123 ms
-[18:38:11] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[18:38:11] [Server thread/INFO]: Time elapsed: 163 ms
-[18:38:11] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[18:38:11] [Server thread/INFO]: Time elapsed: 82 ms
-[18:38:11] [Server thread/INFO]: Running delayed init tasks
-[18:38:11] [Server thread/INFO]: Done (11.249s)! For help, type "help"
-[18:38:11] [Server thread/INFO]: Timings Reset
-[18:40:03] [User Authenticator #0/INFO]: UUID of player Suafita is e3921829-260f-34af-a9f2-9465a970f372
-[18:40:04] [Server thread/INFO]: Suafita joined the game
-[18:40:04] [Server thread/INFO]: Suafita[/[0:0:0:0:0:0:0:1%0]:40308] logged in with entity id 385 at ([world]-365.5, 68.0, 15.5)
-[18:40:53] [Server thread/INFO]: Suafita issued server command: /tps
-[18:41:05] [Server thread/INFO]: Made Suafita a server operator
-[18:41:10] [Server thread/INFO]: Suafita issued server command: /tps
-[18:51:10] [Server thread/INFO]: Suafita issued server command: /gamemode creative
-[18:51:10] [Server thread/INFO]: [Suafita: Set own game mode to Creative Mode]
-[18:52:16] [Server thread/INFO]: Suafita lost connection: Timed out
-[18:52:16] [Server thread/INFO]: Suafita left the game
-[18:55:35] [User Authenticator #1/INFO]: UUID of player Suafita is e3921829-260f-34af-a9f2-9465a970f372
-[18:55:35] [Server thread/INFO]: Suafita joined the game
-[18:55:35] [Server thread/INFO]: Suafita[/[0:0:0:0:0:0:0:1%0]:58072] logged in with entity id 2397 at ([world]-424.47554714716847, 69.74293160172489, 38.40048711549527)
-[18:55:58] [Server thread/INFO]: Suafita issued server command: /reload commands
-[18:55:58] [Server thread/INFO]: Suafita: Command aliases successfully reloaded.
-[18:56:26] [Server thread/INFO]: Suafita issued server command: /reload confirm
-[18:56:26] [Server thread/INFO]: Suafita: Please note that this command is not supported and may cause issues when using some plugins.
-[18:56:26] [Server thread/INFO]: Suafita: If you encounter any issues please use the /stop command to restart your server.
-[18:56:26] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[18:56:26] [Server thread/INFO]: Using 4 threads for Netty based IO
-[18:56:27] [Server thread/INFO]: Loaded 7 recipes
-[18:56:27] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[18:56:27] [Server thread/INFO]: Suafita: Reload complete.
-[18:56:27] [Server thread/INFO]: Timings Reset
-[18:57:04] [Server thread/INFO]: Suafita lost connection: Timed out
-[18:57:04] [Server thread/INFO]: Suafita left the game
-[19:15:15] [User Authenticator #2/INFO]: UUID of player Suafita is e3921829-260f-34af-a9f2-9465a970f372
-[19:15:15] [Server thread/INFO]: Suafita joined the game
-[19:15:15] [Server thread/INFO]: Suafita[/[0:0:0:0:0:0:0:1%0]:44106] logged in with entity id 2607 at ([world]-388.52033912095993, 70.0, 36.898775368490575)
-[19:16:00] [Server thread/INFO]: Suafita issued server command: /reload confirm
-[19:16:00] [Server thread/INFO]: Suafita: Please note that this command is not supported and may cause issues when using some plugins.
-[19:16:00] [Server thread/INFO]: Suafita: If you encounter any issues please use the /stop command to restart your server.
-[19:16:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:16:00] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:16:00] [Server thread/INFO]: Loaded 7 recipes
-[19:16:01] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:16:01] [Server thread/INFO]: Suafita: Reload complete.
-[19:16:01] [Server thread/INFO]: Timings Reset
-[19:16:05] [Server thread/INFO]: Suafita issued server command: /plugins
-[19:17:51] [Server thread/INFO]: Suafita lost connection: Timed out
-[19:17:51] [Server thread/INFO]: Suafita left the game
-[19:20:35] [User Authenticator #3/INFO]: UUID of player Suafita is e3921829-260f-34af-a9f2-9465a970f372
-[19:20:35] [Server thread/INFO]: Suafita joined the game
-[19:20:35] [Server thread/INFO]: Suafita[/[0:0:0:0:0:0:0:1%0]:57586] logged in with entity id 2844 at ([world]-391.42597747408547, 71.0, 41.147282192169804)
-[19:25:18] [Server thread/INFO]: Suafita issued server command: /gamemode spectator
-[19:25:18] [Server thread/INFO]: [Suafita: Set own game mode to Spectator Mode]
-[19:25:23] [Server thread/INFO]: Suafita issued server command: /gamemode creative
-[19:25:23] [Server thread/INFO]: [Suafita: Set own game mode to Creative Mode]
-[19:28:50] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[19:28:55] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[19:28:59] [Server thread/INFO]: CONSOLE: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
-[19:29:21] [Server thread/INFO]: Suafita issued server command: /reload confirm
-[19:29:21] [Server thread/INFO]: Suafita: Please note that this command is not supported and may cause issues when using some plugins.
-[19:29:21] [Server thread/INFO]: Suafita: If you encounter any issues please use the /stop command to restart your server.
-[19:29:21] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:29:21] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:29:22] [Server thread/INFO]: Loaded 7 recipes
-[19:29:22] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:29:22] [Server thread/INFO]: Suafita: Reload complete.
-[19:29:22] [Server thread/INFO]: Timings Reset
-[19:30:00] [Server thread/INFO]: Suafita issued server command: /time set day
-[19:30:00] [Server thread/INFO]: [Suafita: Set the time to 1000]
-[19:30:30] [Server thread/INFO]: Suafita issued server command: /gamemode spectator
-[19:30:30] [Server thread/INFO]: [Suafita: Set own game mode to Spectator Mode]
-[19:30:33] [Server thread/INFO]: Suafita issued server command: /gamemode survival
-[19:30:33] [Server thread/INFO]: [Suafita: Set own game mode to Survival Mode]
-[19:32:30] [Server thread/INFO]: Suafita issued server command: /reload confirm
-[19:32:30] [Server thread/INFO]: Suafita: Please note that this command is not supported and may cause issues when using some plugins.
-[19:32:30] [Server thread/INFO]: Suafita: If you encounter any issues please use the /stop command to restart your server.
-[19:32:30] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:32:30] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:32:30] [Server thread/INFO]: Loaded 7 recipes
-[19:32:30] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:32:30] [Server thread/INFO]: Suafita: Reload complete.
-[19:32:30] [Server thread/INFO]: Timings Reset
-[19:32:35] [Server thread/INFO]: Suafita issued server command: /plugins
-[19:32:49] [Server thread/INFO]: Server Plugins (0):
-[19:33:02] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
-[19:33:02] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
-[19:33:02] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:33:02] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:33:03] [Server thread/INFO]: Loaded 7 recipes
-[19:33:03] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:33:03] [Server thread/INFO]: CONSOLE: Reload complete.
-[19:33:03] [Server thread/INFO]: Timings Reset
-[19:33:16] [Server thread/INFO]: Suafita issued server command: /skin Suafita
-[19:37:03] [Server thread/INFO]: Suafita issued server command: /pl
-[19:38:09] [Server thread/INFO]: Suafita lost connection: Timed out
-[19:38:09] [Server thread/INFO]: Suafita left the game
+2025-01-05 20:13:56,896 [32mINFO [m [m[main][m [mc.m.m.Launcher.main(76)[m: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 40.2.21, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914, nogui]
+2025-01-05 20:13:56,904 [32mINFO [m [m[main][m [mc.m.m.Launcher.<init>(51)[m: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 17.0.13 by Ubuntu
+2025-01-05 20:13:57,039 [32mINFO [m [m[main][m [mmixin.info(97)[m: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/MINESERVER/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2316!/ Service=ModLauncher Env=SERVER
+2025-01-05 20:13:57,333 [32mINFO [m [m[main][m [mn.m.f.l.m.JarInJarDependencyLocator.scanMods(51)[m: No dependencies to load found. Skipping!
+2025-01-05 20:13:58,686 [32mINFO [m [m[main][m [mc.m.m.LaunchServiceHandler.launch(52)[m: Launching target 'forgeserver' with arguments [nogui]
+2025-01-05 20:14:05,942 [32mINFO [m [m[modloading-worker-0][m [mn.m.c.ForgeMod.<init>(143)[m: Forge mod loading, version 40.2.21, for MC 1.18.2 with MCP 20220404.173914
+2025-01-05 20:14:05,945 [32mINFO [m [m[modloading-worker-0][m [mn.m.c.MinecraftForge.initialize(41)[m: MinecraftForge v40.2.21 Initialized
+2025-01-05 20:14:06,299 [32mINFO [m [m[modloading-worker-0][m [mc.m.MohistMC.init(17)[m: EventDispatcherRegistry initialized
+2025-01-05 20:14:09,082 [32mINFO [m [m[main][m [mc.m.a.y.YggdrasilAuthenticationService.<init>(72)[m: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+2025-01-05 20:14:10,314 [33mWARN [m [m[main][m [mn.m.s.p.VanillaPackResources.m_182299_(58)[m: Assets URL 'union:/workspaces/MINESERVER/servidor_minecraft/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2362!/assets/.mcassetsroot' uses unexpected schema
+2025-01-05 20:14:10,314 [33mWARN [m [m[main][m [mn.m.s.p.VanillaPackResources.m_182299_(58)[m: Assets URL 'union:/workspaces/MINESERVER/servidor_minecraft/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2362!/data/.mcassetsroot' uses unexpected schema
+2025-01-05 20:14:13,298 [33mWARN [m [m[main][m [mn.m.c.Commands.m_82107_(214)[m: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+2025-01-05 20:14:13,309 [33mWARN [m [m[main][m [mn.m.c.Commands.m_82107_(214)[m: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+2025-01-05 20:14:13,314 [33mWARN [m [m[main][m [mn.m.c.Commands.m_82107_(214)[m: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+2025-01-05 20:14:13,316 [33mWARN [m [m[main][m [mn.m.c.Commands.m_82107_(214)[m: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+2025-01-05 20:14:13,318 [33mWARN [m [m[main][m [mn.m.c.Commands.m_82107_(214)[m: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+2025-01-05 20:14:15,499 [32mINFO [m [m[Worker-Main-4][m [mn.m.w.i.c.RecipeManager.m_5787_(85)[m: Loaded 7 recipes
+2025-01-05 20:14:18,294 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(150)[m: Starting minecraft server version 1.18.2
+2025-01-05 20:14:18,295 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(155)[m: Loading properties
+2025-01-05 20:14:18,295 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(172)[m: Default game type: SURVIVAL
+2025-01-05 20:14:18,295 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129793_(1286)[m: Generating keypair
+2025-01-05 20:14:18,533 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(183)[m: Starting Minecraft server on *:25565
+2025-01-05 20:14:18,579 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerConnectionListener.m_9711_(79)[m: Using epoll channel type
+2025-01-05 20:14:18,753 [33mWARN [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(195)[m: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2025-01-05 20:14:18,754 [33mWARN [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(196)[m: The server will make no attempt to authenticate usernames. Beware.
+2025-01-05 20:14:18,754 [33mWARN [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(197)[m: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2025-01-05 20:14:18,755 [33mWARN [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(198)[m: To change this, set "online-mode" to "true" in the server.properties file.
+2025-01-05 20:14:18,888 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: This server is running Mohist version 1.18.2-184 (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT, Forge version 40.2.21)
+2025-01-05 20:14:19,697 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: Debug logging is enabled
+2025-01-05 20:14:19,698 [32mINFO [m [m[Server thread][m [m.playerSample(274)[m: Server Ping Player Sample Count: 12
+2025-01-05 20:14:19,706 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: Using 4 threads for Netty based IO
+2025-01-05 20:14:19,794 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(224)[m: Preparing level "world"
+2025-01-05 20:14:20,676 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129940_(601)[m: Preparing start region for dimension minecraft:overworld
+2025-01-05 20:14:22,631 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-05 20:14:22,642 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-05 20:14:22,661 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-05 20:14:22,666 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-05 20:14:22,678 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-05 20:14:23,255 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-05 20:14:23,750 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-05 20:14:24,179 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-05 20:14:24,678 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-05 20:14:25,207 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-05 20:14:25,678 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-05 20:14:26,180 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-05 20:14:26,679 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-05 20:14:27,183 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 3%
+2025-01-05 20:14:30,904 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 11%
+2025-01-05 20:14:30,912 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 11%
+2025-01-05 20:14:30,913 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 11%
+2025-01-05 20:14:30,914 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 11%
+2025-01-05 20:14:30,914 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 11%
+2025-01-05 20:14:30,915 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 11%
+2025-01-05 20:14:30,919 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 11%
+2025-01-05 20:14:31,230 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 17%
+2025-01-05 20:14:31,680 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 28%
+2025-01-05 20:14:32,219 [32mINFO [m [m[Server thread][m [mn.m.s.l.p.LoggerChunkProgressListener.m_7646_(55)[m: Time elapsed: 11541 ms
+2025-01-05 20:14:32,330 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129940_(601)[m: Preparing start region for dimension minecraft:the_nether
+2025-01-05 20:14:33,026 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-05 20:14:33,029 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-05 20:14:33,334 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-05 20:14:33,833 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-05 20:14:34,333 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 4%
+2025-01-05 20:14:35,189 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 16%
+2025-01-05 20:14:35,447 [32mINFO [m [m[Worker-Main-4][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 27%
+2025-01-05 20:14:35,942 [32mINFO [m [m[Server thread][m [mn.m.s.l.p.LoggerChunkProgressListener.m_7646_(55)[m: Time elapsed: 3610 ms
+2025-01-05 20:14:35,945 [32mINFO [m [m[Server thread][m [mn.m.s.MinecraftServer.m_129940_(601)[m: Preparing start region for dimension minecraft:the_end
+2025-01-05 20:14:36,494 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-05 20:14:36,495 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 0%
+2025-01-05 20:14:36,948 [32mINFO [m [m[Worker-Main-5][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 2%
+2025-01-05 20:14:37,448 [32mINFO [m [m[Worker-Main-6][m [mn.m.s.l.p.LoggerChunkProgressListener.m_5511_(44)[m: Preparing spawn area: 27%
+2025-01-05 20:14:38,004 [32mINFO [m [m[Server thread][m [mn.m.s.l.p.LoggerChunkProgressListener.m_7646_(55)[m: Time elapsed: 2056 ms
+2025-01-05 20:14:38,031 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: Server permissions file permissions.yml is empty, ignoring it
+2025-01-05 20:14:38,039 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_7038_(228)[m: Done (18.283s)! For help, type "help"
+2025-01-05 20:14:38,095 [32mINFO [m [m[Server thread][m [mn.m.s.p.PermissionAPI.initializePermissionAPI(130)[m: Successfully initialized permission handler forge:default_handler
+2025-01-05 20:14:43,291 [32mINFO [m [m[User Authenticator #1][m [mn.m.s.n.ServerLoginPacketListenerImpl.fireEvents(401)[m: UUID of player Suafita is e3921829-260f-34af-a9f2-9465a970f372
+2025-01-05 20:15:13,252 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerLoginPacketListenerImpl.m_10053_(109)[m: Disconnecting com.mojang.authlib.GameProfile@31e0522d[id=e3921829-260f-34af-a9f2-9465a970f372,name=Suafita,properties={},legacy=false] (/127.0.0.1:48352): Took too long to log in
+2025-01-05 20:15:13,298 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerLoginPacketListenerImpl.m_7026_(185)[m: com.mojang.authlib.GameProfile@31e0522d[id=e3921829-260f-34af-a9f2-9465a970f372,name=Suafita,properties={},legacy=false] (/127.0.0.1:48352) lost connection: Took too long to log in
+2025-01-05 20:15:53,395 [32mINFO [m [m[User Authenticator #2][m [mn.m.s.n.ServerLoginPacketListenerImpl.fireEvents(401)[m: UUID of player Suafita is e3921829-260f-34af-a9f2-9465a970f372
+2025-01-05 20:15:58,181 [32mINFO [m [m[User Authenticator #2][m [mn.m.s.n.ServerLoginPacketListenerImpl.fireEvents(401)[m: UUID of player Suafita is e3921829-260f-34af-a9f2-9465a970f372
+2025-01-05 20:15:59,828 [32mINFO [m [m[Server thread][m [mn.m.c.AdvancementLoadFix.loadVisibility(36)[m: Using new advancement loading for net.minecraft.server.PlayerAdvancements@215ac2e0
+2025-01-05 20:16:00,153 [32mINFO [m [m[Server thread][m [mn.m.s.p.PlayerList.m_11261_(338)[m: Suafita[/127.0.0.1:44218] logged in with entity id 326 at (121.51220962188633, 72.0, 47.3492297404556)
+2025-01-05 20:16:23,399 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerLoginPacketListenerImpl.m_10053_(109)[m: Disconnecting com.mojang.authlib.GameProfile@5b994618[id=e3921829-260f-34af-a9f2-9465a970f372,name=Suafita,properties={},legacy=false] (/127.0.0.1:44198): Took too long to log in
+2025-01-05 20:16:23,449 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerLoginPacketListenerImpl.m_7026_(185)[m: com.mojang.authlib.GameProfile@5b994618[id=e3921829-260f-34af-a9f2-9465a970f372,name=Suafita,properties={},legacy=false] (/127.0.0.1:44198) lost connection: Took too long to log in
+2025-01-05 20:16:31,449 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: Unknown command. Type "help" for help.
+2025-01-05 20:16:55,610 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_9957_(1721)[m: Suafita issued server command: /reload confirm
+2025-01-05 20:16:55,612 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: Suafita: §cPlease note that this command is not supported and may cause issues when using some plugins.
+2025-01-05 20:16:55,613 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: Suafita: §cIf you encounter any issues please use the /stop command to restart your server.
+2025-01-05 20:16:55,623 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: Debug logging is enabled
+2025-01-05 20:16:55,623 [32mINFO [m [m[Server thread][m [m.playerSample(274)[m: Server Ping Player Sample Count: 12
+2025-01-05 20:16:55,624 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: Using 4 threads for Netty based IO
+2025-01-05 20:16:55,653 [33mWARN [m [m[Server thread][m [mn.m.c.Commands.m_82107_(214)[m: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+2025-01-05 20:16:55,654 [33mWARN [m [m[Server thread][m [mn.m.c.Commands.m_82107_(214)[m: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+2025-01-05 20:16:55,655 [33mWARN [m [m[Server thread][m [mn.m.c.Commands.m_82107_(214)[m: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+2025-01-05 20:16:55,657 [33mWARN [m [m[Server thread][m [mn.m.c.Commands.m_82107_(214)[m: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+2025-01-05 20:16:55,658 [33mWARN [m [m[Server thread][m [mn.m.c.Commands.m_82107_(214)[m: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+2025-01-05 20:16:56,944 [32mINFO [m [m[Server thread][m [mn.m.w.i.c.RecipeManager.m_5787_(85)[m: Loaded 7 recipes
+2025-01-05 20:16:57,842 [32mINFO [m [m[Server thread][m [mn.m.c.AdvancementLoadFix.loadVisibility(36)[m: Using new advancement loading for net.minecraft.server.PlayerAdvancements@215ac2e0
+2025-01-05 20:16:57,855 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: Server permissions file permissions.yml is empty, ignoring it
+2025-01-05 20:16:57,860 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: Suafita: §aReload complete.
+2025-01-05 20:17:11,949 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: Unknown command. Type "help" for help.

@@ -1945,3 +1945,7 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 2025-01-05 21:15:06,813 [32mINFO [m [m[Server thread][m [mvoicechat.log(53)[m: [voicechat] Disconnecting client Suafita
 2025-01-05 21:15:06,818 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_6352_(656)[m: Suafita left the game.
 2025-01-05 21:15:06,893 [33mWARN [m [m[Server thread][m [mn.m.n.Connection.m_129541_(400)[m: handleDisconnection() called twice
+2025-01-05 21:17:28,571 [36mDEBUG[m [m[Server thread][m [mn.m.c.ForgeHooks.writeAdditionalLevelSaveData(1442)[m: Gathering id map for writing to world save world
+2025-01-05 21:17:28,576 [36mDEBUG[m [m[Server thread][m [mn.m.c.ForgeHooks.writeAdditionalLevelSaveData(1448)[m: ID Map collection complete world
+2025-01-05 21:22:28,571 [36mDEBUG[m [m[Server thread][m [mn.m.c.ForgeHooks.writeAdditionalLevelSaveData(1442)[m: Gathering id map for writing to world save world
+2025-01-05 21:22:28,578 [36mDEBUG[m [m[Server thread][m [mn.m.c.ForgeHooks.writeAdditionalLevelSaveData(1448)[m: ID Map collection complete world

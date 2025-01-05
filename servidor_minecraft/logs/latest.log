@@ -56,3 +56,18 @@
 [18:56:27] [Server thread/INFO]: Timings Reset
 [18:57:04] [Server thread/INFO]: Suafita lost connection: Timed out
 [18:57:04] [Server thread/INFO]: Suafita left the game
+[19:15:15] [User Authenticator #2/INFO]: UUID of player Suafita is e3921829-260f-34af-a9f2-9465a970f372
+[19:15:15] [Server thread/INFO]: Suafita joined the game
+[19:15:15] [Server thread/INFO]: Suafita[/[0:0:0:0:0:0:0:1%0]:44106] logged in with entity id 2607 at ([world]-388.52033912095993, 70.0, 36.898775368490575)
+[19:16:00] [Server thread/INFO]: Suafita issued server command: /reload confirm
+[19:16:00] [Server thread/INFO]: Suafita: Please note that this command is not supported and may cause issues when using some plugins.
+[19:16:00] [Server thread/INFO]: Suafita: If you encounter any issues please use the /stop command to restart your server.
+[19:16:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:16:00] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:16:00] [Server thread/INFO]: Loaded 7 recipes
+[19:16:01] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:16:01] [Server thread/INFO]: Suafita: Reload complete.
+[19:16:01] [Server thread/INFO]: Timings Reset
+[19:16:05] [Server thread/INFO]: Suafita issued server command: /plugins
+[19:17:51] [Server thread/INFO]: Suafita lost connection: Timed out
+[19:17:51] [Server thread/INFO]: Suafita left the game

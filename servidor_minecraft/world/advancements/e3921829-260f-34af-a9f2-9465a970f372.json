@@ -69,5 +69,11 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2025-01-05 19:34:58 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

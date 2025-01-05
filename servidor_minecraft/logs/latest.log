@@ -78,3 +78,44 @@
 [19:25:18] [Server thread/INFO]: [Suafita: Set own game mode to Spectator Mode]
 [19:25:23] [Server thread/INFO]: Suafita issued server command: /gamemode creative
 [19:25:23] [Server thread/INFO]: [Suafita: Set own game mode to Creative Mode]
+[19:28:50] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[19:28:55] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[19:28:59] [Server thread/INFO]: CONSOLE: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
+[19:29:21] [Server thread/INFO]: Suafita issued server command: /reload confirm
+[19:29:21] [Server thread/INFO]: Suafita: Please note that this command is not supported and may cause issues when using some plugins.
+[19:29:21] [Server thread/INFO]: Suafita: If you encounter any issues please use the /stop command to restart your server.
+[19:29:21] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:29:21] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:29:22] [Server thread/INFO]: Loaded 7 recipes
+[19:29:22] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:29:22] [Server thread/INFO]: Suafita: Reload complete.
+[19:29:22] [Server thread/INFO]: Timings Reset
+[19:30:00] [Server thread/INFO]: Suafita issued server command: /time set day
+[19:30:00] [Server thread/INFO]: [Suafita: Set the time to 1000]
+[19:30:30] [Server thread/INFO]: Suafita issued server command: /gamemode spectator
+[19:30:30] [Server thread/INFO]: [Suafita: Set own game mode to Spectator Mode]
+[19:30:33] [Server thread/INFO]: Suafita issued server command: /gamemode survival
+[19:30:33] [Server thread/INFO]: [Suafita: Set own game mode to Survival Mode]
+[19:32:30] [Server thread/INFO]: Suafita issued server command: /reload confirm
+[19:32:30] [Server thread/INFO]: Suafita: Please note that this command is not supported and may cause issues when using some plugins.
+[19:32:30] [Server thread/INFO]: Suafita: If you encounter any issues please use the /stop command to restart your server.
+[19:32:30] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:32:30] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:32:30] [Server thread/INFO]: Loaded 7 recipes
+[19:32:30] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:32:30] [Server thread/INFO]: Suafita: Reload complete.
+[19:32:30] [Server thread/INFO]: Timings Reset
+[19:32:35] [Server thread/INFO]: Suafita issued server command: /plugins
+[19:32:49] [Server thread/INFO]: Server Plugins (0):
+[19:33:02] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[19:33:02] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[19:33:02] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:33:02] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:33:03] [Server thread/INFO]: Loaded 7 recipes
+[19:33:03] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:33:03] [Server thread/INFO]: CONSOLE: Reload complete.
+[19:33:03] [Server thread/INFO]: Timings Reset
+[19:33:16] [Server thread/INFO]: Suafita issued server command: /skin Suafita
+[19:37:03] [Server thread/INFO]: Suafita issued server command: /pl
+[19:38:09] [Server thread/INFO]: Suafita lost connection: Timed out
+[19:38:09] [Server thread/INFO]: Suafita left the game

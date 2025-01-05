@@ -71,3 +71,10 @@
 [19:16:05] [Server thread/INFO]: Suafita issued server command: /plugins
 [19:17:51] [Server thread/INFO]: Suafita lost connection: Timed out
 [19:17:51] [Server thread/INFO]: Suafita left the game
+[19:20:35] [User Authenticator #3/INFO]: UUID of player Suafita is e3921829-260f-34af-a9f2-9465a970f372
+[19:20:35] [Server thread/INFO]: Suafita joined the game
+[19:20:35] [Server thread/INFO]: Suafita[/[0:0:0:0:0:0:0:1%0]:57586] logged in with entity id 2844 at ([world]-391.42597747408547, 71.0, 41.147282192169804)
+[19:25:18] [Server thread/INFO]: Suafita issued server command: /gamemode spectator
+[19:25:18] [Server thread/INFO]: [Suafita: Set own game mode to Spectator Mode]
+[19:25:23] [Server thread/INFO]: Suafita issued server command: /gamemode creative
+[19:25:23] [Server thread/INFO]: [Suafita: Set own game mode to Creative Mode]

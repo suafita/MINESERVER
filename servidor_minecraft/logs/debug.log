@@ -1936,3 +1936,12 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 2025-01-05 21:01:38,691 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: Suafita: §aReload complete.
 2025-01-05 21:02:28,601 [36mDEBUG[m [m[Server thread][m [mn.m.c.ForgeHooks.writeAdditionalLevelSaveData(1442)[m: Gathering id map for writing to world save world
 2025-01-05 21:02:28,610 [36mDEBUG[m [m[Server thread][m [mn.m.c.ForgeHooks.writeAdditionalLevelSaveData(1448)[m: ID Map collection complete world
+2025-01-05 21:07:28,595 [36mDEBUG[m [m[Server thread][m [mn.m.c.ForgeHooks.writeAdditionalLevelSaveData(1442)[m: Gathering id map for writing to world save world
+2025-01-05 21:07:28,603 [36mDEBUG[m [m[Server thread][m [mn.m.c.ForgeHooks.writeAdditionalLevelSaveData(1448)[m: ID Map collection complete world
+2025-01-05 21:12:28,587 [36mDEBUG[m [m[Server thread][m [mn.m.c.ForgeHooks.writeAdditionalLevelSaveData(1442)[m: Gathering id map for writing to world save world
+2025-01-05 21:12:28,594 [36mDEBUG[m [m[Server thread][m [mn.m.c.ForgeHooks.writeAdditionalLevelSaveData(1448)[m: ID Map collection complete world
+2025-01-05 21:15:06,777 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_7026_(1554)[m: Suafita lost connection: Timed out
+2025-01-05 21:15:06,779 [36mDEBUG[m [m[Server thread][m [mvoicechat.log(53)[m: [voicechat] Removing state of Suafita
+2025-01-05 21:15:06,813 [32mINFO [m [m[Server thread][m [mvoicechat.log(53)[m: [voicechat] Disconnecting client Suafita
+2025-01-05 21:15:06,818 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_6352_(656)[m: Suafita left the game.
+2025-01-05 21:15:06,893 [33mWARN [m [m[Server thread][m [mn.m.n.Connection.m_129541_(400)[m: handleDisconnection() called twice

@@ -146,3 +146,7 @@
 2025-01-05 21:01:38,671 [32mINFO [m [m[Server thread][m [mn.m.c.AdvancementLoadFix.loadVisibility(36)[m: Using new advancement loading for net.minecraft.server.PlayerAdvancements@394b27fe
 2025-01-05 21:01:38,686 [32mINFO [m [m[Server thread][m [mMinecraft.publish(36)[m: Server permissions file permissions.yml is empty, ignoring it
 2025-01-05 21:01:38,691 [32mINFO [m [m[Server thread][m [mColouredConsoleSender.sendMessage(55)[m: Suafita: §aReload complete.
+2025-01-05 21:15:06,777 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_7026_(1554)[m: Suafita lost connection: Timed out
+2025-01-05 21:15:06,813 [32mINFO [m [m[Server thread][m [mvoicechat.log(53)[m: [voicechat] Disconnecting client Suafita
+2025-01-05 21:15:06,818 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_6352_(656)[m: Suafita left the game.
+2025-01-05 21:15:06,893 [33mWARN [m [m[Server thread][m [mn.m.n.Connection.m_129541_(400)[m: handleDisconnection() called twice

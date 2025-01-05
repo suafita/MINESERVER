@@ -36,3 +36,23 @@
 [18:40:53] [Server thread/INFO]: Suafita issued server command: /tps
 [18:41:05] [Server thread/INFO]: Made Suafita a server operator
 [18:41:10] [Server thread/INFO]: Suafita issued server command: /tps
+[18:51:10] [Server thread/INFO]: Suafita issued server command: /gamemode creative
+[18:51:10] [Server thread/INFO]: [Suafita: Set own game mode to Creative Mode]
+[18:52:16] [Server thread/INFO]: Suafita lost connection: Timed out
+[18:52:16] [Server thread/INFO]: Suafita left the game
+[18:55:35] [User Authenticator #1/INFO]: UUID of player Suafita is e3921829-260f-34af-a9f2-9465a970f372
+[18:55:35] [Server thread/INFO]: Suafita joined the game
+[18:55:35] [Server thread/INFO]: Suafita[/[0:0:0:0:0:0:0:1%0]:58072] logged in with entity id 2397 at ([world]-424.47554714716847, 69.74293160172489, 38.40048711549527)
+[18:55:58] [Server thread/INFO]: Suafita issued server command: /reload commands
+[18:55:58] [Server thread/INFO]: Suafita: Command aliases successfully reloaded.
+[18:56:26] [Server thread/INFO]: Suafita issued server command: /reload confirm
+[18:56:26] [Server thread/INFO]: Suafita: Please note that this command is not supported and may cause issues when using some plugins.
+[18:56:26] [Server thread/INFO]: Suafita: If you encounter any issues please use the /stop command to restart your server.
+[18:56:26] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:56:26] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:56:27] [Server thread/INFO]: Loaded 7 recipes
+[18:56:27] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:56:27] [Server thread/INFO]: Suafita: Reload complete.
+[18:56:27] [Server thread/INFO]: Timings Reset
+[18:57:04] [Server thread/INFO]: Suafita lost connection: Timed out
+[18:57:04] [Server thread/INFO]: Suafita left the game

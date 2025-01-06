@@ -21,3 +21,5 @@
 2025-01-06 00:06:39,881 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_6352_(656)[m: [Suafita: Set the weather to clear]
 2025-01-06 00:11:54,554 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_9957_(1721)[m: Suafita issued server command: /weather clear
 2025-01-06 00:11:54,555 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_6352_(656)[m: [Suafita: Set the weather to clear]
+2025-01-06 00:17:32,254 [32mINFO [m [m[Server thread][m [mn.m.s.n.ServerGamePacketListenerImpl.m_7026_(1554)[m: Suafita lost connection: Timed out
+2025-01-06 00:17:32,258 [32mINFO [m [m[Server thread][m [mn.m.s.d.DedicatedServer.m_6352_(656)[m: Suafita left the game
